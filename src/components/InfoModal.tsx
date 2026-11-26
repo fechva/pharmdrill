@@ -37,10 +37,10 @@ export const InfoModal: React.FC<InfoModalProps> = ({
     totalAttempts > 0 ? Math.round((totalCorrect / totalAttempts) * 100) : 0;
 
   return (
-    <div className="modal-backdrop" onClick={onClose} role="dialog" aria-modal="true" aria-label="About PharmDrill">
+    <div className="modal-backdrop" onClick={onClose} role="dialog" aria-modal="true" aria-label="About DDGI">
       <div className="modal-card" onClick={(e) => e.stopPropagation()}>
         <div className="modal-header">
-          <h2>About PharmDrill</h2>
+          <h2>About DDGI</h2>
           <button type="button" className="icon-btn" onClick={onClose} aria-label="Close">
             ✕
           </button>
@@ -83,9 +83,29 @@ export const InfoModal: React.FC<InfoModalProps> = ({
         </div>
 
         <div className="modal-section">
-          <h3>References & disclaimer</h3>
+          <h3>References &amp; disclaimer</h3>
           <p className="modal-note">
             Curated from CPIC level A guidelines, FDA Tables of Pharmacogenetic Associations &amp; Drug Interactions, DPWG, ClinPGx, and the Flockhart CYP table.
+          </p>
+          <p className="modal-note">
+            <strong>DDGI</strong> (Drug–Drug &amp; Gene Interactions) ·{' '}
+            <a
+              href="https://ddgi.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="modal-link"
+            >
+              ddgi.app ↗
+            </a>{' '}
+            ·{' '}
+            <a
+              href="https://github.com/fechva/pharmdrill"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="modal-link"
+            >
+              GitHub ↗
+            </a>
           </p>
           <p className="modal-note disclaimer">
             For educational and active-recall training purposes only. Not clinical decision support—always verify prescribing decisions against current official drug labels and clinical guidelines.

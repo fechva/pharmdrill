@@ -129,6 +129,13 @@ kbd {
   letter-spacing: -0.02em;
 }
 
+.brand-subtitle {
+  font-size: 0.78rem;
+  color: var(--text-faint);
+  font-weight: 400;
+  white-space: nowrap;
+}
+
 .topbar-right {
   display: flex;
   align-items: center;
@@ -685,6 +692,16 @@ kbd {
   color: var(--text-muted);
 }
 
+.modal-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.modal-link:hover {
+  text-decoration: underline;
+}
+
 .disclaimer {
   font-size: 0.78rem;
   color: var(--text-faint);
@@ -707,6 +724,12 @@ kbd {
   border: 1px solid var(--err-border);
   background: var(--err-bg);
   color: var(--err);
+}
+
+@media (max-width: 640px) {
+  .brand-subtitle {
+    display: none;
+  }
 }
 
 @media (max-width: 560px) {

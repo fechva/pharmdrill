@@ -44,7 +44,12 @@ export const Header: React.FC<HeaderProps> = ({
             <circle cx="48" cy="48" r="5.5" fill={theme === 'dark' ? '#1d4ed8' : '#60a5fa'} />
           </svg>
         </span>
-        <h1 className="brand-title">PharmDrill</h1>
+        <h1 className="brand-title" aria-label="DDGI — Drug–Drug & Gene Interactions">
+          DDGI
+        </h1>
+        <span className="brand-subtitle" aria-hidden="true">
+          Drug–Drug &amp; Gene Interactions
+        </span>
       </div>
 
       <div className="topbar-right">

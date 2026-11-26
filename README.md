@@ -1,4 +1,6 @@
-# PharmDrill
+# DDGI — Drug–Drug & Gene Interactions
+
+**Live app:** [https://ddgi.app](https://ddgi.app)
 
 A fast, zero-friction active-recall web app for drilling high-yield **drug-drug** and **drug-gene** interactions.
 
