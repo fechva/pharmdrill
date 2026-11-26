@@ -63,7 +63,7 @@ export const InfoModal: React.FC<InfoModalProps> = ({
             </div>
             <div className="stat-box">
               <div className="stat-big">{userState.bestStreak}</div>
-              <div className="stat-sub">Best Streak</div>
+              <div className="stat-sub">Best streak</div>
             </div>
           </div>
           <p className="modal-note">
@@ -72,7 +72,7 @@ export const InfoModal: React.FC<InfoModalProps> = ({
         </div>
 
         <div className="modal-section">
-          <h3>Keyboard Shortcuts</h3>
+          <h3>Keyboard shortcuts</h3>
           <ul className="shortcut-list">
             <li><kbd>1</kbd> – <kbd>4</kbd> Select answer</li>
             <li><kbd>Enter</kbd> or <kbd>Space</kbd> Next card</li>
@@ -83,9 +83,9 @@ export const InfoModal: React.FC<InfoModalProps> = ({
         </div>
 
         <div className="modal-section">
-          <h3>References & Disclaimer</h3>
+          <h3>References & disclaimer</h3>
           <p className="modal-note">
-            Curated from CPIC Level A guidelines, FDA Tables of Pharmacogenetic Associations &amp; Drug Interactions, DPWG, ClinPGx, and the Flockhart CYP Table.
+            Curated from CPIC level A guidelines, FDA Tables of Pharmacogenetic Associations &amp; Drug Interactions, DPWG, ClinPGx, and the Flockhart CYP table.
           </p>
           <p className="modal-note disclaimer">
             For educational and active-recall training purposes only. Not clinical decision support—always verify prescribing decisions against current official drug labels and clinical guidelines.
@@ -103,7 +103,7 @@ export const InfoModal: React.FC<InfoModalProps> = ({
               }
             }}
           >
-            Reset Progress
+            Reset progress
           </button>
           <button type="button" className="next-btn" onClick={onClose}>
             Done

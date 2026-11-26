@@ -57,25 +57,25 @@ export interface CategoryMeta {
 export const CATEGORIES: CategoryMeta[] = [
   {
     id: 'all',
-    label: 'All Topics',
+    label: 'All topics',
     shortLabel: 'All',
     description: 'Full mixed deck of drug-drug and drug-gene interactions.',
   },
   {
     id: 'ddi-pk',
-    label: 'CYP & Transporters',
+    label: 'CYP & transporters',
     shortLabel: 'CYP / PK',
     description: 'CYP450 inhibition/induction, P-gp, OAT transporters, and chelation.',
   },
   {
     id: 'pgx',
-    label: 'Drug-Gene (PGx)',
+    label: 'Drug-gene (PGx)',
     shortLabel: 'PGx',
-    description: 'CPIC Level A & FDA pharmacogenomic prescribing actions.',
+    description: 'CPIC level A & FDA pharmacogenomic prescribing actions.',
   },
   {
     id: 'prodrug',
-    label: 'Prodrug Traps',
+    label: 'Prodrug traps',
     shortLabel: 'Prodrugs',
     description: 'Bioactivation flips where inhibition reduces efficacy and induction increases toxicity.',
   },
@@ -88,22 +88,22 @@ export const CATEGORIES: CategoryMeta[] = [
   {
     id: 'ddi-pd',
     label: 'Pharmacodynamic',
-    shortLabel: 'PD Hazards',
+    shortLabel: 'PD hazards',
     description: 'Serotonin syndrome, QT prolongation, triple whammy AKI, hyperkalemia, and bleeding.',
   },
   {
     id: 'safe-swap',
-    label: 'Safe Swap',
-    shortLabel: 'Safe Swap',
+    label: 'Safe swap',
+    shortLabel: 'Safe swap',
     description: 'Pick the clinically safest therapeutic alternative.',
   },
 ];
 
 export const CATEGORY_LABELS: Record<Category, string> = {
   'ddi-pk': 'CYP / PK',
-  pgx: 'Drug-Gene (PGx)',
-  prodrug: 'Prodrug Trap',
+  pgx: 'Drug-gene (PGx)',
+  prodrug: 'Prodrug trap',
   phenoconversion: 'Phenoconversion',
   'ddi-pd': 'Pharmacodynamic',
-  'safe-swap': 'Safe Swap',
+  'safe-swap': 'Safe swap',
 };
