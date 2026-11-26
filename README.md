@@ -4,15 +4,15 @@ A fast, zero-friction active-recall web app for drilling high-yield **drug-drug*
 
 Open the page, answer immediately, read a crisp 2-line mechanism + clinical pearl, and hit `Enter` for the next prompt.
 
-## What's Included (v1 — 100 Curated Cards)
+## What's Included (120 Curated Cards)
 
 | Category | Cards | Focus |
 |---|---:|---|
-| **CYP & Transporters (`ddi-pk`)** | 24 | CYP450 inhibition/induction, P-gp, OAT transporters, chelation |
-| **Drug-Gene (`pgx`)** | 24 | CPIC Level A & FDA pharmacogenomic prescribing actions |
+| **CYP & Transporters (`ddi-pk`)** | 30 | CYP450 inhibition/induction, P-gp, OAT transporters, chelation + negative controls |
+| **Drug-Gene (`pgx`)** | 30 | CPIC Level A & FDA pharmacogenomic prescribing actions on a fixed 4-option scale + standard-dose controls |
 | **Prodrug Traps (`prodrug`)** | 14 | Bioactivation flips (clopidogrel, codeine, tramadol, tamoxifen, losartan) + negative controls |
-| **Phenoconversion (`phenoconversion`)** | 12 | Co-prescribed inhibitors/inducers overriding genetic metabolizer status |
-| **Pharmacodynamic (`ddi-pd`)** | 14 | Triple whammy AKI, serotonin syndrome, QTc, hyperkalemia, lithium, bleeding |
+| **Phenoconversion (`phenoconversion`)** | 16 | Co-prescribed inhibitors/inducers overriding genetic metabolizer status + negative controls |
+| **Pharmacodynamic (`ddi-pd`)** | 18 | Triple whammy AKI, serotonin syndrome, QTc, hyperkalemia, lithium, bleeding + negative controls |
 | **Safe Swap (`safe-swap`)** | 12 | Pick the clinically safest therapeutic alternative |
 
 ## Features

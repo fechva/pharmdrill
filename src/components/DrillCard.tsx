@@ -11,6 +11,21 @@ interface DrillCardProps {
   onNext: () => void;
 }
 
+function buildReportIssueUrl(card: InteractionCard): string {
+  const params = new URLSearchParams({
+    title: `Card issue: ${card.id} (${card.prompt})`,
+    body: [
+      `**Card ID:** \`${card.id}\``,
+      `**Prompt:** ${card.prompt}`,
+      `**Question:** ${card.question}`,
+      '',
+      '**What needs correction or clarification?**',
+      '',
+    ].join('\n'),
+  });
+  return `https://github.com/fechva/pharmdrill/issues/new?${params.toString()}`;
+}
+
 export const DrillCard: React.FC<DrillCardProps> = ({
   card,
   presentedOptions,
@@ -88,6 +103,14 @@ export const DrillCard: React.FC<DrillCardProps> = ({
             {!isCorrect && (
               <span className="requeue-note">Re-queued for review</span>
             )}
+            <a
+              href={buildReportIssueUrl(card)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="report-link"
+            >
+              Report issue ↗
+            </a>
           </div>
 
           <dl className="feedback-details">

@@ -22,6 +22,13 @@ const VALID_PROMPT_TYPES = new Set([
   'hazard',
 ]);
 
+const PGX_OPTIONS = [
+  'use standard dose',
+  'reduce starting dose',
+  'increase starting dose',
+  'avoid / choose alternative',
+];
+
 const raw = fs.readFileSync(dataPath, 'utf-8');
 const cards = JSON.parse(raw);
 
@@ -68,18 +75,48 @@ for (const [idx, card] of cards.entries()) {
   if (!Array.isArray(card.options) || card.options.length < 2 || card.options.length > 4) {
     console.error(`${prefix}: options must contain 2 to 4 items`);
     errors++;
-  } else if (
-    typeof card.correctIndex !== 'number' ||
-    card.correctIndex < 0 ||
-    card.correctIndex >= card.options.length
-  ) {
-    console.error(`${prefix}: invalid correctIndex ${card.correctIndex}`);
-    errors++;
+  } else {
+    if (
+      typeof card.correctIndex !== 'number' ||
+      card.correctIndex < 0 ||
+      card.correctIndex >= card.options.length
+    ) {
+      console.error(`${prefix}: invalid correctIndex ${card.correctIndex}`);
+      errors++;
+    }
+
+    if (card.category === 'pgx') {
+      const matchesScale =
+        card.options.length === PGX_OPTIONS.length &&
+        PGX_OPTIONS.every((opt, i) => card.options[i] === opt);
+      if (!matchesScale) {
+        console.error(
+          `${prefix}: pgx cards must use the fixed 4-option scale ${JSON.stringify(PGX_OPTIONS)}`
+        );
+        errors++;
+      }
+    }
   }
 
   if (!card.source || typeof card.source.label !== 'string' || !card.source.label.trim()) {
     console.error(`${prefix}: missing source.label`);
     errors++;
+  }
+
+  if (!card.source || typeof card.source.url !== 'string' || !card.source.url.startsWith('https://')) {
+    console.error(`${prefix}: source.url must be a valid https:// URL`);
+    errors++;
+  } else {
+    try {
+      const parsed = new URL(card.source.url);
+      if (parsed.protocol !== 'https:') {
+        console.error(`${prefix}: source.url must use https://`);
+        errors++;
+      }
+    } catch {
+      console.error(`${prefix}: malformed source.url "${card.source.url}"`);
+      errors++;
+    }
   }
 }
 

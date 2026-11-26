@@ -454,7 +454,7 @@
     ],
     "source": {
       "label": "FDA label",
-      "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-and-drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers"
+      "url": "https://dailymed.nlm.nih.gov/dailymed/"
     }
   },
   {
@@ -478,7 +478,7 @@
     ],
     "source": {
       "label": "FDA label",
-      "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-and-drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers"
+      "url": "https://dailymed.nlm.nih.gov/dailymed/"
     }
   },
   {
@@ -502,7 +502,7 @@
     ],
     "source": {
       "label": "FDA label",
-      "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-and-drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers"
+      "url": "https://dailymed.nlm.nih.gov/dailymed/"
     }
   },
   {
@@ -526,7 +526,7 @@
     ],
     "source": {
       "label": "FDA label",
-      "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-and-drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers"
+      "url": "https://dailymed.nlm.nih.gov/dailymed/"
     }
   },
   {
@@ -578,6 +578,150 @@
     }
   },
   {
+    "id": "ddi-pk-25",
+    "category": "ddi-pk",
+    "promptType": "effect",
+    "prompt": "simvastatin + azithromycin",
+    "question": "Expected clinical effect on simvastatin?",
+    "options": [
+      "↑ toxicity / excessive effect",
+      "↓ loss of efficacy / subtherapeutic",
+      "no major clinical interaction"
+    ],
+    "correctIndex": 2,
+    "mechanism": "Unlike clarithromycin and erythromycin, azithromycin is an azalide that does not inhibit CYP3A4 or OATP1B1.",
+    "pearl": "Azithromycin is the preferred macrolide for patients taking simvastatin or lovastatin—no need to hold the statin.",
+    "tags": [
+      "CYP3A4",
+      "statin",
+      "control"
+    ],
+    "source": {
+      "label": "FDA label",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/"
+    }
+  },
+  {
+    "id": "ddi-pk-26",
+    "category": "ddi-pk",
+    "promptType": "effect",
+    "prompt": "clopidogrel + pantoprazole",
+    "question": "Expected clinical effect on clopidogrel?",
+    "options": [
+      "↑ toxicity / excessive effect",
+      "↓ loss of efficacy / subtherapeutic",
+      "no major clinical interaction"
+    ],
+    "correctIndex": 2,
+    "mechanism": "Pantoprazole causes negligible CYP2C19 inhibition, leaving two-step clopidogrel bioactivation intact.",
+    "pearl": "Preferred PPI for GI bleeding prophylaxis in patients on clopidogrel—unlike omeprazole and esomeprazole, which blunt antiplatelet activity.",
+    "tags": [
+      "CYP2C19",
+      "PPI",
+      "control"
+    ],
+    "source": {
+      "label": "FDA label",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/"
+    }
+  },
+  {
+    "id": "ddi-pk-27",
+    "category": "ddi-pk",
+    "promptType": "effect",
+    "prompt": "bisoprolol + paroxetine",
+    "question": "Expected clinical effect on bisoprolol?",
+    "options": [
+      "↑ toxicity / excessive effect",
+      "↓ loss of efficacy / subtherapeutic",
+      "no major clinical interaction"
+    ],
+    "correctIndex": 2,
+    "mechanism": "Bisoprolol is eliminated ~50% unchanged by the kidneys and ~50% via CYP3A4, bypassing the CYP2D6 pathway strongly inhibited by paroxetine.",
+    "pearl": "Unlike metoprolol (which accumulates 4–6x with paroxetine), bisoprolol avoids CYP2D6-mediated bradycardia.",
+    "tags": [
+      "CYP2D6",
+      "beta-blocker",
+      "control"
+    ],
+    "source": {
+      "label": "Flockhart table",
+      "url": "https://drug-interactions.medicine.iu.edu/MainTable.aspx"
+    }
+  },
+  {
+    "id": "ddi-pk-28",
+    "category": "ddi-pk",
+    "promptType": "effect",
+    "prompt": "lorazepam + ritonavir",
+    "question": "Expected clinical effect on lorazepam?",
+    "options": [
+      "↑ toxicity / excessive effect",
+      "↓ loss of efficacy / subtherapeutic",
+      "no major clinical interaction"
+    ],
+    "correctIndex": 2,
+    "mechanism": "Lorazepam undergoes direct UGT glucuronidation rather than CYP3A4 oxidation, sidestepping ritonavir's potent CYP3A4 inhibition.",
+    "pearl": "The 'LOT' benzodiazepines (lorazepam, oxazepam, temazepam) are safe choices with ritonavir, whereas oral midazolam and triazolam are contraindicated.",
+    "tags": [
+      "CYP3A4",
+      "glucuronidation",
+      "control"
+    ],
+    "source": {
+      "label": "FDA DDI table",
+      "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-and-drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers"
+    }
+  },
+  {
+    "id": "ddi-pk-29",
+    "category": "ddi-pk",
+    "promptType": "effect",
+    "prompt": "atenolol + rifampin",
+    "question": "Expected clinical effect on atenolol?",
+    "options": [
+      "↑ toxicity / excessive effect",
+      "↓ loss of efficacy / subtherapeutic",
+      "no major clinical interaction"
+    ],
+    "correctIndex": 2,
+    "mechanism": "Atenolol is hydrophilic and excreted predominantly unchanged in urine, so hepatic CYP induction by rifampin has minimal impact on its clearance.",
+    "pearl": "Unlike metoprolol, propranolol, and carvedilol (whose levels plunge with rifampin), atenolol maintains reliable beta-blockade.",
+    "tags": [
+      "renal clearance",
+      "inducer",
+      "control"
+    ],
+    "source": {
+      "label": "Flockhart table",
+      "url": "https://drug-interactions.medicine.iu.edu/MainTable.aspx"
+    }
+  },
+  {
+    "id": "ddi-pk-30",
+    "category": "ddi-pk",
+    "promptType": "effect",
+    "prompt": "levothyroxine + oral iron (separated by 4 hours)",
+    "question": "Expected clinical effect on levothyroxine?",
+    "options": [
+      "↑ toxicity / excessive effect",
+      "↓ loss of efficacy / subtherapeutic",
+      "no major clinical interaction"
+    ],
+    "correctIndex": 2,
+    "mechanism": "Spacing administration by at least 4 hours prevents ferrous iron from chelating levothyroxine in the GI lumen.",
+    "pearl": "Chelation interactions are solved by dose separation—counsel patients to take levothyroxine on an empty stomach and iron/calcium at least 4 hours later.",
+    "tags": [
+      "absorption",
+      "chelation",
+      "control"
+    ],
+    "source": {
+      "label": "FDA label",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/"
+    }
+  },
+  {
     "id": "pgx-01",
     "category": "pgx",
     "promptType": "action",
@@ -587,9 +731,10 @@
     "options": [
       "use standard dose",
       "reduce starting dose",
+      "increase starting dose",
       "avoid / choose alternative"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "mechanism": "HLA-B*57:01 presents altered self-peptides in the presence of abacavir, triggering CD8⁺ T-cell-mediated hypersensitivity.",
     "pearl": "Never prescribe abacavir to an HLA-B*57:01 carrier (and never rechallenge); genotyping is mandatory before starting therapy.",
     "tags": [
@@ -599,7 +744,7 @@
     ],
     "source": {
       "label": "CPIC 2014",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -612,9 +757,10 @@
     "options": [
       "use standard dose",
       "reduce starting dose",
+      "increase starting dose",
       "avoid / choose alternative"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "mechanism": "HLA-B*58:01 strongly predisposes to severe cutaneous adverse reactions (SJS/TEN and DRESS) via oxypurinol-mediated T-cell activation.",
     "pearl": "Avoid allopurinol and choose an alternative urate-lowering drug such as febuxostat.",
     "tags": [
@@ -624,7 +770,7 @@
     ],
     "source": {
       "label": "CPIC 2015",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -637,9 +783,10 @@
     "options": [
       "use standard dose",
       "reduce starting dose",
+      "increase starting dose",
       "avoid / choose alternative"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "mechanism": "HLA-B*15:02 binds carbamazepine directly, triggering cytotoxic T-cell-mediated Stevens-Johnson syndrome / TEN.",
     "pearl": "Avoid carbamazepine (and oxcarbazepine/phenytoin where possible) in drug-naive carriers; allele frequency is highest in East/Southeast Asian ancestries.",
     "tags": [
@@ -649,7 +796,7 @@
     ],
     "source": {
       "label": "CPIC 2017",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -662,9 +809,10 @@
     "options": [
       "use standard dose",
       "reduce starting dose",
+      "increase starting dose",
       "avoid / choose alternative"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "mechanism": "Impaired hepatic OATP1B1 uptake (SLCO1B1 c.521T>C) leaves high simvastatin acid levels in systemic circulation.",
     "pearl": "Avoid simvastatin at 40 mg (and generally choose an alternative statin such as rosuvastatin ≤20 mg or fluvastatin) due to high myopathy risk.",
     "tags": [
@@ -674,7 +822,7 @@
     ],
     "source": {
       "label": "CPIC 2022",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -687,6 +835,7 @@
     "options": [
       "use standard dose",
       "reduce starting dose",
+      "increase starting dose",
       "avoid / choose alternative"
     ],
     "correctIndex": 1,
@@ -699,7 +848,7 @@
     ],
     "source": {
       "label": "CPIC 2017",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -712,9 +861,10 @@
     "options": [
       "use standard dose",
       "reduce starting dose",
+      "increase starting dose",
       "avoid / choose alternative"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "mechanism": "Complete DPD deficiency blocks fluorouracil breakdown, causing extreme, potentially fatal bone marrow and GI toxicity.",
     "pearl": "Avoid 5-FU and capecitabine entirely; select an alternative non-fluoropyrimidine regimen.",
     "tags": [
@@ -724,7 +874,7 @@
     ],
     "source": {
       "label": "CPIC 2017",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -737,9 +887,10 @@
     "options": [
       "use standard dose",
       "reduce starting dose",
+      "increase starting dose",
       "avoid / choose alternative"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "mechanism": "Loss of TPMT or NUDT15 causes massive accumulation of cytotoxic thioguanine nucleotides in hematopoietic cells.",
     "pearl": "Avoid thiopurines in non-malignant conditions (for malignancy, reduce dose ~10-fold and give 3x/week). NUDT15 deficiency is especially common in East Asian ancestry.",
     "tags": [
@@ -748,8 +899,8 @@
       "immunosuppressant"
     ],
     "source": {
-      "label": "CPIC 2018",
-      "url": "https://cpicpgx.org/guidelines/"
+      "label": "CPIC 2025",
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -762,6 +913,7 @@
     "options": [
       "use standard dose",
       "reduce starting dose",
+      "increase starting dose",
       "avoid / choose alternative"
     ],
     "correctIndex": 1,
@@ -773,8 +925,8 @@
       "dose reduction"
     ],
     "source": {
-      "label": "CPIC 2018",
-      "url": "https://cpicpgx.org/guidelines/"
+      "label": "CPIC 2025",
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -787,6 +939,7 @@
     "options": [
       "use standard dose",
       "reduce starting dose",
+      "increase starting dose",
       "avoid / choose alternative"
     ],
     "correctIndex": 1,
@@ -799,7 +952,7 @@
     ],
     "source": {
       "label": "CPIC 2023",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -812,9 +965,10 @@
     "options": [
       "use standard dose",
       "reduce starting dose",
+      "increase starting dose",
       "avoid / choose alternative"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "mechanism": "Impaired CYP2D6 hydroxylation increases plasma TCA concentrations and risk of anticholinergic, CNS, and cardiac toxicity.",
     "pearl": "Avoid tricyclics where possible; if required, cut starting dose by 50% and guide therapy with therapeutic drug monitoring.",
     "tags": [
@@ -824,7 +978,7 @@
     ],
     "source": {
       "label": "CPIC 2016",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -836,10 +990,11 @@
     "question": "Recommended prescribing action?",
     "options": [
       "use standard dose",
+      "reduce starting dose",
       "increase starting dose",
       "avoid / choose alternative"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "mechanism": "Accelerated CYP2D6 metabolism rapidly clears active TCA, leading to subtherapeutic levels and treatment failure.",
     "pearl": "Avoid amitriptyline and select an alternative non-CYP2D6 antidepressant (if used, TDM is required).",
     "tags": [
@@ -849,7 +1004,7 @@
     ],
     "source": {
       "label": "CPIC 2016",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -861,10 +1016,11 @@
     "question": "Recommended prescribing action?",
     "options": [
       "use standard dose",
+      "reduce starting dose",
       "increase starting dose",
       "avoid / choose alternative"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "mechanism": "Rapid CYP2C19-mediated clearance prevents attainment of therapeutic voriconazole trough concentrations.",
     "pearl": "Choose an alternative antifungal not dependent on CYP2C19 (e.g., isavuconazole, liposomal amphotericin B, posaconazole).",
     "tags": [
@@ -874,7 +1030,7 @@
     ],
     "source": {
       "label": "CPIC 2016",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -886,10 +1042,11 @@
     "question": "Recommended prescribing action?",
     "options": [
       "use standard dose",
+      "reduce starting dose",
       "increase starting dose",
       "avoid / choose alternative"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "mechanism": "Increased CYP2C19 activity accelerates omeprazole inactivation, resulting in inadequate gastric acid suppression.",
     "pearl": "Increase starting dose by ~100% (or consider rabeprazole, which is less CYP2C19-dependent) and monitor symptom response.",
     "tags": [
@@ -899,7 +1056,7 @@
     ],
     "source": {
       "label": "CPIC 2020",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -911,10 +1068,11 @@
     "question": "Recommended prescribing action?",
     "options": [
       "use standard dose",
+      "reduce starting dose",
       "increase starting dose",
       "avoid / choose alternative"
     ],
-    "correctIndex": 1,
+    "correctIndex": 2,
     "mechanism": "Most people of European ancestry are CYP3A5 poor metabolizers (*3/*3, historically called nonexpressers); carriers of a functional *1 allele (historically called CYP3A5 expressers) clear tacrolimus significantly faster.",
     "pearl": "Increase starting dose 1.5–2x (up to 0.3 mg/kg/day) and use TDM to avoid early subtherapeutic troughs and graft rejection.",
     "tags": [
@@ -924,7 +1082,7 @@
     ],
     "source": {
       "label": "CPIC 2015",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -937,6 +1095,7 @@
     "options": [
       "use standard dose",
       "reduce starting dose",
+      "increase starting dose",
       "avoid / choose alternative"
     ],
     "correctIndex": 1,
@@ -949,7 +1108,7 @@
     ],
     "source": {
       "label": "CPIC 2017",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -962,6 +1121,7 @@
     "options": [
       "use standard dose",
       "reduce starting dose",
+      "increase starting dose",
       "avoid / choose alternative"
     ],
     "correctIndex": 1,
@@ -974,7 +1134,7 @@
     ],
     "source": {
       "label": "CPIC 2020",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -987,6 +1147,7 @@
     "options": [
       "use standard dose",
       "reduce starting dose",
+      "increase starting dose",
       "avoid / choose alternative"
     ],
     "correctIndex": 1,
@@ -999,7 +1160,7 @@
     ],
     "source": {
       "label": "CPIC 2020",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -1011,10 +1172,11 @@
     "question": "Recommended prescribing action?",
     "options": [
       "use standard dose",
+      "reduce starting dose",
       "increase starting dose",
       "avoid / choose alternative"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "mechanism": "Rapid CYP2D6 clearance lowers ondansetron exposure, significantly increasing risk of antiemetic failure (vomiting).",
     "pearl": "Switch to an alternative 5-HT3 antagonist not primarily metabolized by CYP2D6, such as granisetron.",
     "tags": [
@@ -1023,8 +1185,8 @@
       "ultrarapid"
     ],
     "source": {
-      "label": "CPIC 2016",
-      "url": "https://cpicpgx.org/guidelines/"
+      "label": "CPIC 2026",
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -1037,9 +1199,10 @@
     "options": [
       "use standard dose",
       "reduce starting dose",
+      "increase starting dose",
       "avoid / choose alternative"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "mechanism": "Rasburicase generates hydrogen peroxide as it converts uric acid to allantoin; G6PD-deficient RBCs cannot neutralize the oxidative stress.",
     "pearl": "Strictly contraindicated due to severe acute hemolytic anemia and methemoglobinemia; screen high-risk patients before dosing.",
     "tags": [
@@ -1049,7 +1212,7 @@
     ],
     "source": {
       "label": "CPIC 2022",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -1062,9 +1225,10 @@
     "options": [
       "use standard dose",
       "reduce starting dose",
+      "increase starting dose",
       "avoid / choose alternative"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "mechanism": "Primaquine metabolites generate reactive oxygen species that overwhelm glutathione-depleted G6PD-deficient erythrocytes.",
     "pearl": "Avoid standard daily dosing due to acute hemolytic anemia (in milder G6PD variants, WHO permits a supervised weekly regimen).",
     "tags": [
@@ -1074,7 +1238,7 @@
     ],
     "source": {
       "label": "CPIC 2022",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -1087,6 +1251,7 @@
     "options": [
       "use standard dose",
       "reduce starting dose",
+      "increase starting dose",
       "avoid / choose alternative"
     ],
     "correctIndex": 1,
@@ -1112,9 +1277,10 @@
     "options": [
       "use standard dose",
       "reduce starting dose",
+      "increase starting dose",
       "avoid / choose alternative"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "mechanism": "Atazanavir inhibits UGT1A1; in genetic UGT1A1 PMs, unconjugated bilirubin rises markedly, causing visible jaundice.",
     "pearl": "Consider an alternative antiretroviral if jaundice is likely to cause nonadherence (though the hyperbilirubinemia itself is not hepatotoxic).",
     "tags": [
@@ -1124,7 +1290,7 @@
     ],
     "source": {
       "label": "CPIC 2015",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -1137,6 +1303,7 @@
     "options": [
       "use standard dose",
       "reduce starting dose",
+      "increase starting dose",
       "avoid / choose alternative"
     ],
     "correctIndex": 1,
@@ -1149,7 +1316,7 @@
     ],
     "source": {
       "label": "CPIC 2019",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -1162,9 +1329,10 @@
     "options": [
       "use standard dose",
       "reduce starting dose",
+      "increase starting dose",
       "avoid / choose alternative"
     ],
-    "correctIndex": 2,
+    "correctIndex": 3,
     "mechanism": "Mitochondrial 12S rRNA variant makes human mitochondrial ribosomes resemble bacterial targets, causing cochlear hair cell death.",
     "pearl": "Avoid aminoglycosides unless no safe alternative exists; even a single standard dose can cause rapid, irreversible bilateral deafness.",
     "tags": [
@@ -1174,7 +1342,163 @@
     ],
     "source": {
       "label": "CPIC 2021",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
+    }
+  },
+  {
+    "id": "pgx-25",
+    "category": "pgx",
+    "promptType": "action",
+    "context": "CPIC level A",
+    "prompt": "tacrolimus + CYP3A5 poor metabolizer (*3/*3)",
+    "question": "Recommended prescribing action?",
+    "options": [
+      "use standard dose",
+      "reduce starting dose",
+      "increase starting dose",
+      "avoid / choose alternative"
+    ],
+    "correctIndex": 0,
+    "mechanism": "Standard tacrolimus dosing was established in CYP3A5 *3/*3 poor metabolizers (historically nonexpressers), who make up the majority of European populations.",
+    "pearl": "Classic PGx trap: CYP3A5 *3/*3 receives the standard starting dose + TDM—it is *1 expressers (NM/IM) who need a 1.5–2x dose increase.",
+    "tags": [
+      "CYP3A5",
+      "transplant",
+      "control"
+    ],
+    "source": {
+      "label": "CPIC 2015",
+      "url": "https://www.clinpgx.org/cpic/guidelines"
+    }
+  },
+  {
+    "id": "pgx-26",
+    "category": "pgx",
+    "promptType": "action",
+    "context": "CPIC level A",
+    "prompt": "fluvastatin + SLCO1B1 poor function",
+    "question": "Recommended prescribing action?",
+    "options": [
+      "use standard dose",
+      "reduce starting dose",
+      "increase starting dose",
+      "avoid / choose alternative"
+    ],
+    "correctIndex": 0,
+    "mechanism": "Fluvastatin clearance relies primarily on CYP2C9 rather than hepatic OATP1B1 (SLCO1B1) uptake, so SLCO1B1 poor function does not meaningfully raise myopathy risk.",
+    "pearl": "Per CPIC 2022, fluvastatin can be started at standard doses in SLCO1B1 poor function (though CYP2C9 poor metabolizers still require fluvastatin dose reduction).",
+    "tags": [
+      "SLCO1B1",
+      "statin",
+      "control"
+    ],
+    "source": {
+      "label": "CPIC 2022",
+      "url": "https://www.clinpgx.org/cpic/guidelines"
+    }
+  },
+  {
+    "id": "pgx-27",
+    "category": "pgx",
+    "promptType": "action",
+    "context": "CPIC level A",
+    "prompt": "escitalopram + CYP2D6 poor metabolizer",
+    "question": "Recommended prescribing action?",
+    "options": [
+      "use standard dose",
+      "reduce starting dose",
+      "increase starting dose",
+      "avoid / choose alternative"
+    ],
+    "correctIndex": 0,
+    "mechanism": "Escitalopram is primarily metabolized by CYP2C19 (with minimal CYP2D6 contribution), so CYP2D6 poor metabolizer status does not warrant dose adjustment.",
+    "pearl": "Match the SSRI to the right enzyme: citalopram/escitalopram/sertraline are CYP2C19-driven, whereas paroxetine/fluvoxamine/venlafaxine are CYP2D6-driven.",
+    "tags": [
+      "CYP2D6",
+      "SSRI",
+      "control"
+    ],
+    "source": {
+      "label": "CPIC 2023",
+      "url": "https://www.clinpgx.org/cpic/guidelines"
+    }
+  },
+  {
+    "id": "pgx-28",
+    "category": "pgx",
+    "promptType": "action",
+    "context": "CPIC level A",
+    "prompt": "naproxen + CYP2C9 poor metabolizer",
+    "question": "Recommended prescribing action?",
+    "options": [
+      "use standard dose",
+      "reduce starting dose",
+      "increase starting dose",
+      "avoid / choose alternative"
+    ],
+    "correctIndex": 0,
+    "mechanism": "Naproxen undergoes extensive UGT glucuronidation with only minor CYP2C9 involvement, unlike celecoxib, ibuprofen, meloxicam, and flurbiprofen.",
+    "pearl": "CPIC 2020 recommends standard dosing for naproxen (or selecting naproxen as an alternative) in CYP2C9 poor metabolizers.",
+    "tags": [
+      "CYP2C9",
+      "NSAID",
+      "control"
+    ],
+    "source": {
+      "label": "CPIC 2020",
+      "url": "https://www.clinpgx.org/cpic/guidelines"
+    }
+  },
+  {
+    "id": "pgx-29",
+    "category": "pgx",
+    "promptType": "action",
+    "context": "CPIC level A",
+    "prompt": "abacavir + HLA-B*58:01 positive",
+    "question": "Recommended prescribing action?",
+    "options": [
+      "use standard dose",
+      "reduce starting dose",
+      "increase starting dose",
+      "avoid / choose alternative"
+    ],
+    "correctIndex": 0,
+    "mechanism": "Abacavir hypersensitivity is specifically linked to HLA-B*57:01—not HLA-B*58:01 (which predicts allopurinol-induced SJS/TEN and DRESS).",
+    "pearl": "Keep HLA alleles distinct: *57:01 = abacavir, *58:01 = allopurinol, *15:02 = carbamazepine; always confirm HLA-B*57:01 negative before starting abacavir.",
+    "tags": [
+      "HLA-B*58:01",
+      "HIV",
+      "control"
+    ],
+    "source": {
+      "label": "CPIC 2014",
+      "url": "https://www.clinpgx.org/cpic/guidelines"
+    }
+  },
+  {
+    "id": "pgx-30",
+    "category": "pgx",
+    "promptType": "action",
+    "context": "CPIC level A",
+    "prompt": "hydralazine + NAT2 poor metabolizer",
+    "question": "Recommended prescribing action?",
+    "options": [
+      "use standard dose",
+      "reduce starting dose",
+      "increase starting dose",
+      "avoid / choose alternative"
+    ],
+    "correctIndex": 1,
+    "mechanism": "NAT2 poor metabolizers (historically slow acetylators) have impaired acetylation of oral hydralazine, raising systemic exposure and drug-induced lupus risk.",
+    "pearl": "Start at a lower total daily dose (e.g., 40–75 mg/day), titrate slowly, and exercise caution at total daily doses ≥200 mg due to drug-induced SLE risk.",
+    "tags": [
+      "NAT2",
+      "antihypertensive",
+      "dose reduction"
+    ],
+    "source": {
+      "label": "CPIC 2025",
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -1199,7 +1523,7 @@
     ],
     "source": {
       "label": "CPIC 2022",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -1224,7 +1548,7 @@
     ],
     "source": {
       "label": "FDA label",
-      "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-and-drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers"
+      "url": "https://dailymed.nlm.nih.gov/dailymed/"
     }
   },
   {
@@ -1249,7 +1573,7 @@
     ],
     "source": {
       "label": "CPIC 2020",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -1274,7 +1598,7 @@
     ],
     "source": {
       "label": "CPIC 2020",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -1299,7 +1623,7 @@
     ],
     "source": {
       "label": "CPIC 2020",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -1324,7 +1648,7 @@
     ],
     "source": {
       "label": "CPIC 2020",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -1349,7 +1673,7 @@
     ],
     "source": {
       "label": "CPIC 2018",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -1449,7 +1773,7 @@
     ],
     "source": {
       "label": "FDA label",
-      "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-and-drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers"
+      "url": "https://dailymed.nlm.nih.gov/dailymed/"
     }
   },
   {
@@ -1474,7 +1798,7 @@
     ],
     "source": {
       "label": "CPIC 2020",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -1499,7 +1823,7 @@
     ],
     "source": {
       "label": "CPIC 2022",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -1524,7 +1848,7 @@
     ],
     "source": {
       "label": "CPIC 2020",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -1549,7 +1873,7 @@
     ],
     "source": {
       "label": "CPIC 2018",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -1674,7 +1998,7 @@
     ],
     "source": {
       "label": "FDA label",
-      "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-and-drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers"
+      "url": "https://dailymed.nlm.nih.gov/dailymed/"
     }
   },
   {
@@ -1799,7 +2123,7 @@
     ],
     "source": {
       "label": "CPIC 2018",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -1828,6 +2152,106 @@
     }
   },
   {
+    "id": "pheno-13",
+    "category": "phenoconversion",
+    "promptType": "phenotype",
+    "context": "baseline: CYP2C19 normal metabolizer",
+    "prompt": "Patient on clopidogrel starts pantoprazole",
+    "question": "Effective CYP2C19 phenotype?",
+    "options": [
+      "ultrarapid metabolizer",
+      "normal metabolizer (no phenoconversion)",
+      "poor metabolizer"
+    ],
+    "correctIndex": 1,
+    "mechanism": "Pantoprazole causes negligible CYP2C19 inhibition and does not reduce functional CYP2C19 activity in a genetic normal metabolizer.",
+    "pearl": "Unlike omeprazole and esomeprazole, pantoprazole avoids CYP2C19 phenoconversion and preserves clopidogrel bioactivation.",
+    "tags": [
+      "CYP2C19",
+      "phenoconversion",
+      "control"
+    ],
+    "source": {
+      "label": "FDA label",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/"
+    }
+  },
+  {
+    "id": "pheno-14",
+    "category": "phenoconversion",
+    "promptType": "phenotype",
+    "context": "baseline: CYP2D6 normal metabolizer",
+    "prompt": "Patient on metoprolol starts sertraline",
+    "question": "Effective CYP2D6 phenotype?",
+    "options": [
+      "ultrarapid metabolizer",
+      "normal metabolizer (no phenoconversion)",
+      "poor metabolizer"
+    ],
+    "correctIndex": 1,
+    "mechanism": "At standard therapeutic doses, sertraline is only a weak CYP2D6 inhibitor and does not phenoconvert a CYP2D6 normal metabolizer into a functional PM.",
+    "pearl": "Sertraline avoids the severe CYP2D6 phenoconversion seen with paroxetine, fluoxetine, or bupropion (though high-dose sertraline can mildly inhibit CYP2D6).",
+    "tags": [
+      "CYP2D6",
+      "phenoconversion",
+      "control"
+    ],
+    "source": {
+      "label": "ClinPGx",
+      "url": "https://www.clinpgx.org/"
+    }
+  },
+  {
+    "id": "pheno-15",
+    "category": "phenoconversion",
+    "promptType": "phenotype",
+    "context": "baseline: CYP2C9 normal metabolizer",
+    "prompt": "Patient on warfarin starts rifampin",
+    "question": "Effective CYP2C9 phenotype?",
+    "options": [
+      "ultrarapid metabolizer",
+      "normal metabolizer (no phenoconversion)",
+      "poor metabolizer"
+    ],
+    "correctIndex": 0,
+    "mechanism": "Rifampin activates PXR to strongly induce CYP2C9 expression, accelerating functional S-warfarin clearance into ultrarapid territory.",
+    "pearl": "Expect a sharp INR drop requiring major warfarin dose escalation—and cut back promptly when rifampin stops to prevent rebound bleeding.",
+    "tags": [
+      "CYP2C9",
+      "phenoconversion",
+      "inducer"
+    ],
+    "source": {
+      "label": "FDA DDI table",
+      "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-and-drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers"
+    }
+  },
+  {
+    "id": "pheno-16",
+    "category": "phenoconversion",
+    "promptType": "phenotype",
+    "context": "baseline: CYP2C19 normal metabolizer",
+    "prompt": "Patient on omeprazole starts St. John's wort",
+    "question": "Effective CYP2C19 phenotype?",
+    "options": [
+      "ultrarapid metabolizer",
+      "normal metabolizer (no phenoconversion)",
+      "poor metabolizer"
+    ],
+    "correctIndex": 0,
+    "mechanism": "Hyperforin in St. John's wort strongly induces CYP2C19 (and CYP3A4), driving omeprazole clearance to mimic a genetic CYP2C19 ultrarapid metabolizer.",
+    "pearl": "OTC herbal inducers can phenoconvert genetic normal metabolizers into functional UMs, causing breakthrough GERD or H. pylori eradication failure.",
+    "tags": [
+      "CYP2C19",
+      "phenoconversion",
+      "inducer"
+    ],
+    "source": {
+      "label": "FDA DDI table",
+      "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-and-drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers"
+    }
+  },
+  {
     "id": "ddi-pd-01",
     "category": "ddi-pd",
     "promptType": "hazard",
@@ -1848,7 +2272,7 @@
     ],
     "source": {
       "label": "FDA label",
-      "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-and-drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers"
+      "url": "https://dailymed.nlm.nih.gov/dailymed/"
     }
   },
   {
@@ -1872,8 +2296,8 @@
       "NSAID"
     ],
     "source": {
-      "label": "clinical pharmacology",
-      "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-and-drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers"
+      "label": "Lapi et al., BMJ 2013",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23299844/"
     }
   },
   {
@@ -1897,7 +2321,7 @@
     ],
     "source": {
       "label": "FDA label",
-      "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-and-drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers"
+      "url": "https://dailymed.nlm.nih.gov/dailymed/"
     }
   },
   {
@@ -1921,7 +2345,7 @@
     ],
     "source": {
       "label": "FDA label",
-      "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-and-drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers"
+      "url": "https://dailymed.nlm.nih.gov/dailymed/"
     }
   },
   {
@@ -1945,7 +2369,7 @@
     ],
     "source": {
       "label": "FDA label",
-      "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-and-drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers"
+      "url": "https://dailymed.nlm.nih.gov/dailymed/"
     }
   },
   {
@@ -1969,7 +2393,7 @@
     ],
     "source": {
       "label": "FDA label",
-      "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-and-drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers"
+      "url": "https://dailymed.nlm.nih.gov/dailymed/"
     }
   },
   {
@@ -1993,7 +2417,7 @@
     ],
     "source": {
       "label": "FDA label",
-      "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-and-drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers"
+      "url": "https://dailymed.nlm.nih.gov/dailymed/"
     }
   },
   {
@@ -2017,7 +2441,7 @@
     ],
     "source": {
       "label": "FDA label",
-      "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-and-drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers"
+      "url": "https://dailymed.nlm.nih.gov/dailymed/"
     }
   },
   {
@@ -2041,7 +2465,7 @@
     ],
     "source": {
       "label": "FDA label",
-      "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-and-drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers"
+      "url": "https://dailymed.nlm.nih.gov/dailymed/"
     }
   },
   {
@@ -2065,7 +2489,7 @@
     ],
     "source": {
       "label": "CredibleMeds / FDA",
-      "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-and-drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers"
+      "url": "https://www.crediblemeds.org/"
     }
   },
   {
@@ -2089,7 +2513,7 @@
     ],
     "source": {
       "label": "FDA boxed warning",
-      "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-and-drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers"
+      "url": "https://dailymed.nlm.nih.gov/dailymed/"
     }
   },
   {
@@ -2113,7 +2537,7 @@
     ],
     "source": {
       "label": "FDA label",
-      "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-and-drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers"
+      "url": "https://dailymed.nlm.nih.gov/dailymed/"
     }
   },
   {
@@ -2137,7 +2561,7 @@
     ],
     "source": {
       "label": "FDA label",
-      "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-and-drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers"
+      "url": "https://dailymed.nlm.nih.gov/dailymed/"
     }
   },
   {
@@ -2161,7 +2585,103 @@
     ],
     "source": {
       "label": "ACC/AHA / ESC guidelines",
-      "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-and-drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers"
+      "url": "https://www.escardio.org/Guidelines"
+    }
+  },
+  {
+    "id": "ddi-pd-15",
+    "category": "ddi-pd",
+    "promptType": "hazard",
+    "prompt": "amlodipine + metoprolol",
+    "question": "Primary clinical hazard?",
+    "options": [
+      "no major conduction hazard (safe routine combination)",
+      "severe bradycardia / high-degree AV block",
+      "acute hypertensive crisis"
+    ],
+    "correctIndex": 0,
+    "mechanism": "Amlodipine is a vascular-selective dihydropyridine CCB with minimal SA or AV nodal depression, unlike non-dihydropyridines (verapamil/diltiazem).",
+    "pearl": "Dihydropyridine CCB + beta-blocker is a routine, guideline-supported combination for hypertension and angina—just monitor for additive blood pressure lowering.",
+    "tags": [
+      "cardiology",
+      "beta-blocker",
+      "control"
+    ],
+    "source": {
+      "label": "FDA label",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/"
+    }
+  },
+  {
+    "id": "ddi-pd-16",
+    "category": "ddi-pd",
+    "promptType": "effect",
+    "prompt": "lithium + acetaminophen",
+    "question": "Expected clinical effect on lithium?",
+    "options": [
+      "↑ toxicity / excessive effect",
+      "↓ loss of efficacy / subtherapeutic",
+      "no major clinical interaction"
+    ],
+    "correctIndex": 2,
+    "mechanism": "Acetaminophen does not inhibit renal prostaglandin synthesis, leaving GFR and proximal tubular lithium clearance unchanged.",
+    "pearl": "Preferred OTC analgesic for patients on lithium—unlike NSAIDs (ibuprofen, naproxen, celecoxib), which rapidly elevate lithium into the toxic range.",
+    "tags": [
+      "renal clearance",
+      "lithium",
+      "control"
+    ],
+    "source": {
+      "label": "FDA label",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/"
+    }
+  },
+  {
+    "id": "ddi-pd-17",
+    "category": "ddi-pd",
+    "promptType": "hazard",
+    "prompt": "amiodarone + amoxicillin",
+    "question": "Primary clinical hazard?",
+    "options": [
+      "no major QT or pharmacodynamic interaction",
+      "QTc prolongation / torsades de pointes",
+      "loss of antiarrhythmic effect"
+    ],
+    "correctIndex": 0,
+    "mechanism": "Beta-lactams such as amoxicillin do not block cardiac hERG potassium channels (IKr) and do not prolong ventricular repolarization.",
+    "pearl": "When a patient on amiodarone needs an antibiotic, penicillins and cephalosporins avoid the additive QT risk seen with fluoroquinolones and macrolides.",
+    "tags": [
+      "QTc",
+      "antibiotic",
+      "control"
+    ],
+    "source": {
+      "label": "CredibleMeds",
+      "url": "https://www.crediblemeds.org/"
+    }
+  },
+  {
+    "id": "ddi-pd-18",
+    "category": "ddi-pd",
+    "promptType": "hazard",
+    "prompt": "ACE inhibitor + acetaminophen + hydrochlorothiazide",
+    "question": "Primary clinical hazard?",
+    "options": [
+      "no triple-whammy AKI interaction",
+      "acute kidney injury (prerenal/hemodynamic)",
+      "life-threatening hyperkalemia"
+    ],
+    "correctIndex": 0,
+    "mechanism": "Acetaminophen lacks significant peripheral COX inhibition and does not constrict the renal afferent arteriole the way NSAIDs do.",
+    "pearl": "Substituting acetaminophen for NSAIDs breaks the 'triple whammy' triad and protects glomerular filtration pressure in patients on ACEi/ARB + diuretics.",
+    "tags": [
+      "nephrotoxicity",
+      "RAAS",
+      "control"
+    ],
+    "source": {
+      "label": "Lapi et al., BMJ 2013",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23299844/"
     }
   },
   {
@@ -2212,7 +2732,7 @@
     ],
     "source": {
       "label": "FDA label",
-      "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-and-drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers"
+      "url": "https://dailymed.nlm.nih.gov/dailymed/"
     }
   },
   {
@@ -2238,7 +2758,7 @@
     ],
     "source": {
       "label": "CPIC 2018",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -2264,7 +2784,7 @@
     ],
     "source": {
       "label": "CPIC 2022",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -2290,7 +2810,7 @@
     ],
     "source": {
       "label": "FDA label",
-      "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-and-drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers"
+      "url": "https://dailymed.nlm.nih.gov/dailymed/"
     }
   },
   {
@@ -2316,7 +2836,7 @@
     ],
     "source": {
       "label": "CPIC 2015",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -2341,8 +2861,8 @@
       "safe swap"
     ],
     "source": {
-      "label": "CPIC 2016",
-      "url": "https://cpicpgx.org/guidelines/"
+      "label": "CPIC 2026",
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -2445,7 +2965,7 @@
     ],
     "source": {
       "label": "CPIC 2022",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   },
   {
@@ -2471,7 +2991,7 @@
     ],
     "source": {
       "label": "CPIC 2020",
-      "url": "https://cpicpgx.org/guidelines/"
+      "url": "https://www.clinpgx.org/cpic/guidelines"
     }
   }
 ]

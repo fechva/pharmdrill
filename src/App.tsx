@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import rawInteractions from './data/interactions.json';
-import { CategoryFilter, InteractionCard, UserState } from './types';
+import { CATEGORIES, CategoryFilter, InteractionCard, UserState } from './types';
 import {
   clearUserState,
   loadTheme,
@@ -23,6 +23,27 @@ import { DrillCard } from './components/DrillCard';
 import { InfoModal } from './components/InfoModal';
 
 const ALL_CARDS = rawInteractions as InteractionCard[];
+const VALID_TOPIC_FILTERS = new Set<CategoryFilter>(CATEGORIES.map((c) => c.id));
+
+function parseTopicFromUrl(): CategoryFilter {
+  if (typeof window === 'undefined') return 'all';
+  const param = new URLSearchParams(window.location.search).get('topic');
+  if (param && VALID_TOPIC_FILTERS.has(param as CategoryFilter)) {
+    return param as CategoryFilter;
+  }
+  return 'all';
+}
+
+function syncTopicToUrl(nextCategory: CategoryFilter): void {
+  if (typeof window === 'undefined') return;
+  const url = new URL(window.location.href);
+  if (nextCategory === 'all') {
+    url.searchParams.delete('topic');
+  } else {
+    url.searchParams.set('topic', nextCategory);
+  }
+  window.history.replaceState(null, '', url.toString());
+}
 
 function getPoolForCategory(cat: CategoryFilter): InteractionCard[] {
   return cat === 'all' ? ALL_CARDS : ALL_CARDS.filter((c) => c.category === cat);
@@ -50,12 +71,12 @@ function makeActiveCard(
 export const App: React.FC = () => {
   const [userState, setUserState] = useState<UserState>(() => loadUserState());
   const [theme, setTheme] = useState<ThemeMode>(() => loadTheme());
-  const [category, setCategory] = useState<CategoryFilter>('all');
+  const [category, setCategory] = useState<CategoryFilter>(() => parseTopicFromUrl());
   const [reviewMissedOnly, setReviewMissedOnly] = useState(false);
   const [infoOpen, setInfoOpen] = useState(false);
 
   const [active, setActive] = useState<ActiveCardState>(() =>
-    makeActiveCard(ALL_CARDS, loadUserState(), null)
+    makeActiveCard(getPoolForCategory(parseTopicFromUrl()), loadUserState(), null)
   );
 
   useEffect(() => {
@@ -65,6 +86,17 @@ export const App: React.FC = () => {
 
   useEffect(() => {
     saveUserState(userState);
+  }, [userState]);
+
+  useEffect(() => {
+    const onPopState = () => {
+      const nextCategory = parseTopicFromUrl();
+      setCategory(nextCategory);
+      setReviewMissedOnly(false);
+      setActive(makeActiveCard(getPoolForCategory(nextCategory), userState, null));
+    };
+    window.addEventListener('popstate', onPopState);
+    return () => window.removeEventListener('popstate', onPopState);
   }, [userState]);
 
   const categoryPool = useMemo(() => getPoolForCategory(category), [category]);
@@ -77,6 +109,7 @@ export const App: React.FC = () => {
   const handleSelectCategory = useCallback(
     (nextCategory: CategoryFilter) => {
       setCategory(nextCategory);
+      syncTopicToUrl(nextCategory);
       setReviewMissedOnly(false);
       setActive(makeActiveCard(getPoolForCategory(nextCategory), userState, null));
     },
