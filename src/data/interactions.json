@@ -3,11 +3,11 @@
     "id": "ddi-pk-01",
     "category": "ddi-pk",
     "promptType": "effect",
-    "prompt": "Warfarin + Rifampin",
+    "prompt": "Warfarin + rifampin",
     "question": "Expected clinical effect on warfarin?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 1,
@@ -15,8 +15,8 @@
     "pearl": "INR drops sharply over days; monitor closely and expect major dose escalation—then cut back promptly when rifampin stops.",
     "tags": [
       "CYP2C9",
-      "Inducer",
-      "Anticoagulant"
+      "inducer",
+      "anticoagulant"
     ],
     "source": {
       "label": "FDA DDI Table",
@@ -27,11 +27,11 @@
     "id": "ddi-pk-02",
     "category": "ddi-pk",
     "promptType": "effect",
-    "prompt": "Warfarin + Fluconazole",
+    "prompt": "Warfarin + fluconazole",
     "question": "Expected clinical effect on warfarin?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 0,
@@ -39,8 +39,8 @@
     "pearl": "INR can spike dramatically within days; empirically reduce warfarin dose (~25–50%) and check INR closely.",
     "tags": [
       "CYP2C9",
-      "Inhibitor",
-      "Anticoagulant"
+      "inhibitor",
+      "anticoagulant"
     ],
     "source": {
       "label": "FDA DDI Table",
@@ -51,11 +51,11 @@
     "id": "ddi-pk-03",
     "category": "ddi-pk",
     "promptType": "effect",
-    "prompt": "Warfarin + Metronidazole",
+    "prompt": "Warfarin + metronidazole",
     "question": "Expected clinical effect on warfarin?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 0,
@@ -63,8 +63,8 @@
     "pearl": "High bleeding risk during short antibiotic courses; check INR within 3–5 days or consider an alternative antibiotic.",
     "tags": [
       "CYP2C9",
-      "Inhibitor",
-      "Antibiotic"
+      "inhibitor",
+      "antibiotic"
     ],
     "source": {
       "label": "Flockhart Table",
@@ -75,11 +75,11 @@
     "id": "ddi-pk-04",
     "category": "ddi-pk",
     "promptType": "effect",
-    "prompt": "Warfarin + Amiodarone",
+    "prompt": "Warfarin + amiodarone",
     "question": "Expected clinical effect on warfarin?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 0,
@@ -87,8 +87,8 @@
     "pearl": "Empirically reduce warfarin by 25–50%; because amiodarone's half-life is weeks to months, the interaction develops slowly and persists long after stopping.",
     "tags": [
       "CYP2C9",
-      "Inhibitor",
-      "Antiarrhythmic"
+      "inhibitor",
+      "antiarrhythmic"
     ],
     "source": {
       "label": "Flockhart Table",
@@ -99,11 +99,11 @@
     "id": "ddi-pk-05",
     "category": "ddi-pk",
     "promptType": "effect",
-    "prompt": "Warfarin + TMP-SMX (Co-trimoxazole)",
+    "prompt": "Warfarin + TMP-SMX (co-trimoxazole)",
     "question": "Expected clinical effect on warfarin?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 0,
@@ -111,8 +111,8 @@
     "pearl": "One of the top causes of antibiotic-related warfarin hospitalizations; avoid if an alternative UTI antibiotic (e.g., nitrofurantoin) is appropriate.",
     "tags": [
       "CYP2C9",
-      "Inhibitor",
-      "Antibiotic"
+      "inhibitor",
+      "antibiotic"
     ],
     "source": {
       "label": "Flockhart Table",
@@ -123,11 +123,11 @@
     "id": "ddi-pk-06",
     "category": "ddi-pk",
     "promptType": "effect",
-    "prompt": "Simvastatin + Clarithromycin",
+    "prompt": "Simvastatin + clarithromycin",
     "question": "Expected clinical effect on simvastatin?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 0,
@@ -136,7 +136,7 @@
     "tags": [
       "CYP3A4",
       "OATP1B1",
-      "Statin"
+      "statin"
     ],
     "source": {
       "label": "FDA DDI Table",
@@ -147,11 +147,11 @@
     "id": "ddi-pk-07",
     "category": "ddi-pk",
     "promptType": "effect",
-    "prompt": "Simvastatin + Itraconazole",
+    "prompt": "Simvastatin + itraconazole",
     "question": "Expected clinical effect on simvastatin?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 0,
@@ -159,8 +159,8 @@
     "pearl": "Contraindicated; temporarily suspend simvastatin or switch to a non-CYP3A4 statin (pravastatin, rosuvastatin, fluvastatin).",
     "tags": [
       "CYP3A4",
-      "Inhibitor",
-      "Statin"
+      "inhibitor",
+      "statin"
     ],
     "source": {
       "label": "FDA DDI Table",
@@ -171,11 +171,11 @@
     "id": "ddi-pk-08",
     "category": "ddi-pk",
     "promptType": "effect",
-    "prompt": "Tacrolimus + Voriconazole",
+    "prompt": "Tacrolimus + voriconazole",
     "question": "Expected clinical effect on tacrolimus?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 0,
@@ -183,8 +183,8 @@
     "pearl": "Pre-emptively reduce tacrolimus dose by ~66% when starting voriconazole and monitor troughs closely for nephrotoxicity and neurotoxicity.",
     "tags": [
       "CYP3A4",
-      "Inhibitor",
-      "Immunosuppressant"
+      "inhibitor",
+      "immunosuppressant"
     ],
     "source": {
       "label": "FDA DDI Table",
@@ -195,11 +195,11 @@
     "id": "ddi-pk-09",
     "category": "ddi-pk",
     "promptType": "effect",
-    "prompt": "Apixaban + Rifampin",
+    "prompt": "Apixaban + rifampin",
     "question": "Expected clinical effect on apixaban?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 1,
@@ -208,7 +208,7 @@
     "tags": [
       "CYP3A4",
       "P-gp",
-      "Inducer",
+      "inducer",
       "DOAC"
     ],
     "source": {
@@ -220,11 +220,11 @@
     "id": "ddi-pk-10",
     "category": "ddi-pk",
     "promptType": "effect",
-    "prompt": "Dabigatran + Dronedarone",
+    "prompt": "Dabigatran + dronedarone",
     "question": "Expected clinical effect on dabigatran?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 0,
@@ -232,7 +232,7 @@
     "pearl": "Significantly increases bleeding risk; avoid combination (especially in renal impairment) or consider a dose-adjusted alternative.",
     "tags": [
       "P-gp",
-      "Inhibitor",
+      "inhibitor",
       "DOAC"
     ],
     "source": {
@@ -244,11 +244,11 @@
     "id": "ddi-pk-11",
     "category": "ddi-pk",
     "promptType": "effect",
-    "prompt": "Digoxin + Amiodarone",
+    "prompt": "Digoxin + amiodarone",
     "question": "Expected clinical effect on digoxin?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 0,
@@ -256,8 +256,8 @@
     "pearl": "Empirically halve the digoxin dose when starting amiodarone and monitor serum levels and ECG for bradycardia or arrhythmia.",
     "tags": [
       "P-gp",
-      "Inhibitor",
-      "Narrow Therapeutic Index"
+      "inhibitor",
+      "narrow therapeutic index"
     ],
     "source": {
       "label": "FDA DDI Table",
@@ -268,11 +268,11 @@
     "id": "ddi-pk-12",
     "category": "ddi-pk",
     "promptType": "effect",
-    "prompt": "Digoxin + Verapamil",
+    "prompt": "Digoxin + verapamil",
     "question": "Expected clinical effect on digoxin?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 0,
@@ -280,8 +280,8 @@
     "pearl": "Reduce digoxin dose by 25–50% and watch closely for symptomatic bradycardia or heart block.",
     "tags": [
       "P-gp",
-      "Inhibitor",
-      "Cardiology"
+      "inhibitor",
+      "cardiology"
     ],
     "source": {
       "label": "FDA DDI Table",
@@ -292,11 +292,11 @@
     "id": "ddi-pk-13",
     "category": "ddi-pk",
     "promptType": "effect",
-    "prompt": "Combined Oral Contraceptive + Carbamazepine",
+    "prompt": "Combined oral contraceptive + carbamazepine",
     "question": "Expected clinical effect on contraception?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 1,
@@ -304,8 +304,8 @@
     "pearl": "High risk of unintended pregnancy; recommend copper/LNG-IUD or depot medroxyprogesterone instead of oral contraceptives.",
     "tags": [
       "CYP3A4",
-      "Inducer",
-      "Antiepileptic"
+      "inducer",
+      "antiepileptic"
     ],
     "source": {
       "label": "FDA DDI Table",
@@ -316,11 +316,11 @@
     "id": "ddi-pk-14",
     "category": "ddi-pk",
     "promptType": "effect",
-    "prompt": "Combined Oral Contraceptive + St. John's Wort",
+    "prompt": "Combined oral contraceptive + St. John's wort",
     "question": "Expected clinical effect on contraception?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 1,
@@ -329,8 +329,8 @@
     "tags": [
       "CYP3A4",
       "P-gp",
-      "Inducer",
-      "Herbal"
+      "inducer",
+      "herbal"
     ],
     "source": {
       "label": "FDA DDI Table",
@@ -341,11 +341,11 @@
     "id": "ddi-pk-15",
     "category": "ddi-pk",
     "promptType": "effect",
-    "prompt": "Clozapine + Sudden Smoking Cessation",
+    "prompt": "Clozapine + sudden smoking cessation",
     "question": "Expected clinical effect on clozapine?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 0,
@@ -353,8 +353,8 @@
     "pearl": "Classic hospital admission trap (smoke-free wards); nicotine replacement does NOT preserve CYP1A2 induction—reduce clozapine and check troughs.",
     "tags": [
       "CYP1A2",
-      "De-induction",
-      "Psychiatry"
+      "de-induction",
+      "psychiatry"
     ],
     "source": {
       "label": "Flockhart Table",
@@ -365,11 +365,11 @@
     "id": "ddi-pk-16",
     "category": "ddi-pk",
     "promptType": "effect",
-    "prompt": "Clozapine + Fluvoxamine",
+    "prompt": "Clozapine + fluvoxamine",
     "question": "Expected clinical effect on clozapine?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 0,
@@ -377,8 +377,8 @@
     "pearl": "Avoid unless intentionally managed by specialists with strict TDM; risks seizures, sedation, and hypotension.",
     "tags": [
       "CYP1A2",
-      "Inhibitor",
-      "Psychiatry"
+      "inhibitor",
+      "psychiatry"
     ],
     "source": {
       "label": "FDA DDI Table",
@@ -389,11 +389,11 @@
     "id": "ddi-pk-17",
     "category": "ddi-pk",
     "promptType": "effect",
-    "prompt": "Tizanidine + Ciprofloxacin",
+    "prompt": "Tizanidine + ciprofloxacin",
     "question": "Expected clinical effect on tizanidine?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 0,
@@ -401,8 +401,8 @@
     "pearl": "Contraindicated; causes severe hypotension, bradycardia, and profound sedation.",
     "tags": [
       "CYP1A2",
-      "Inhibitor",
-      "Contraindicated"
+      "inhibitor",
+      "contraindicated"
     ],
     "source": {
       "label": "FDA DDI Table",
@@ -413,11 +413,11 @@
     "id": "ddi-pk-18",
     "category": "ddi-pk",
     "promptType": "effect",
-    "prompt": "Theophylline + Ciprofloxacin",
+    "prompt": "Theophylline + ciprofloxacin",
     "question": "Expected clinical effect on theophylline?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 0,
@@ -425,8 +425,8 @@
     "pearl": "Can precipitate nausea, tachycardia, arrhythmias, and seizures; monitor levels closely or choose a non-CYP1A2-inhibiting antibiotic.",
     "tags": [
       "CYP1A2",
-      "Inhibitor",
-      "Narrow Therapeutic Index"
+      "inhibitor",
+      "narrow therapeutic index"
     ],
     "source": {
       "label": "Flockhart Table",
@@ -437,11 +437,11 @@
     "id": "ddi-pk-19",
     "category": "ddi-pk",
     "promptType": "effect",
-    "prompt": "Colchicine + Clarithromycin",
+    "prompt": "Colchicine + clarithromycin",
     "question": "Expected clinical effect on colchicine?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 0,
@@ -450,7 +450,7 @@
     "tags": [
       "CYP3A4",
       "P-gp",
-      "Inhibitor"
+      "inhibitor"
     ],
     "source": {
       "label": "FDA Label",
@@ -461,11 +461,11 @@
     "id": "ddi-pk-20",
     "category": "ddi-pk",
     "promptType": "effect",
-    "prompt": "Simvastatin 40 mg + Amlodipine",
+    "prompt": "Simvastatin 40 mg + amlodipine",
     "question": "Expected clinical effect on simvastatin?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 0,
@@ -473,8 +473,8 @@
     "pearl": "FDA caps simvastatin at 20 mg daily with amlodipine; switch to atorvastatin or rosuvastatin if higher intensity is needed.",
     "tags": [
       "CYP3A4",
-      "Statin",
-      "Dose Cap"
+      "statin",
+      "dose cap"
     ],
     "source": {
       "label": "FDA Label",
@@ -485,20 +485,20 @@
     "id": "ddi-pk-21",
     "category": "ddi-pk",
     "promptType": "effect",
-    "prompt": "Levothyroxine + Oral Iron (taken together)",
+    "prompt": "Levothyroxine + oral iron (taken together)",
     "question": "Expected clinical effect on levothyroxine?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 1,
     "mechanism": "Ferrous iron forms insoluble chelation complexes with levothyroxine in the GI tract, blocking absorption.",
     "pearl": "Separate levothyroxine from iron, calcium, and antacids by at least 4 hours to prevent refractory hypothyroidism.",
     "tags": [
-      "Absorption",
-      "Chelation",
-      "Endocrinology"
+      "absorption",
+      "chelation",
+      "endocrinology"
     ],
     "source": {
       "label": "FDA Label",
@@ -509,20 +509,20 @@
     "id": "ddi-pk-22",
     "category": "ddi-pk",
     "promptType": "effect",
-    "prompt": "Ciprofloxacin + Magnesium/Aluminum Antacid",
+    "prompt": "Ciprofloxacin + magnesium/aluminum antacid",
     "question": "Expected clinical effect on ciprofloxacin?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 1,
-    "mechanism": "Multivalent cations (Mg2+, Al3+, Ca2+, Fe2+) chelate fluoroquinolones in the gut, slashing bioavailability by up to 90%.",
+    "mechanism": "Multivalent cations (Mg²⁺, Al³⁺, Ca²⁺, Fe²⁺) chelate fluoroquinolones in the gut, slashing bioavailability by up to 90%.",
     "pearl": "Give ciprofloxacin at least 2 hours before or 6 hours after cation-containing antacids or supplements.",
     "tags": [
-      "Absorption",
-      "Chelation",
-      "Antibiotic"
+      "absorption",
+      "chelation",
+      "antibiotic"
     ],
     "source": {
       "label": "FDA Label",
@@ -533,11 +533,11 @@
     "id": "ddi-pk-23",
     "category": "ddi-pk",
     "promptType": "effect",
-    "prompt": "Methotrexate + Probenecid",
+    "prompt": "Methotrexate + probenecid",
     "question": "Expected clinical effect on methotrexate?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 0,
@@ -545,8 +545,8 @@
     "pearl": "Increases risk of severe myelosuppression and mucositis; avoid concomitant use.",
     "tags": [
       "OAT1/3",
-      "Transporter",
-      "Renal Clearance"
+      "transporter",
+      "renal clearance"
     ],
     "source": {
       "label": "FDA DDI Table",
@@ -557,11 +557,11 @@
     "id": "ddi-pk-24",
     "category": "ddi-pk",
     "promptType": "effect",
-    "prompt": "Metoprolol + Paroxetine",
+    "prompt": "Metoprolol + paroxetine",
     "question": "Expected clinical effect on metoprolol?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 0,
@@ -569,8 +569,8 @@
     "pearl": "Watch for symptomatic bradycardia, hypotension, and loss of beta-1 selectivity; bisoprolol or atenolol avoids CYP2D6.",
     "tags": [
       "CYP2D6",
-      "Inhibitor",
-      "Beta-blocker"
+      "inhibitor",
+      "beta-blocker"
     ],
     "source": {
       "label": "Flockhart Table",
@@ -587,14 +587,14 @@
     "options": [
       "Use standard dose",
       "Reduce starting dose",
-      "Avoid / Choose alternative"
+      "Avoid / choose alternative"
     ],
     "correctIndex": 2,
-    "mechanism": "HLA-B*57:01 presents altered self-peptides in the presence of abacavir, triggering CD8+ T-cell-mediated hypersensitivity.",
+    "mechanism": "HLA-B*57:01 presents altered self-peptides in the presence of abacavir, triggering CD8⁺ T-cell-mediated hypersensitivity.",
     "pearl": "Never prescribe abacavir to an HLA-B*57:01 carrier (and never rechallenge); genotyping is mandatory before starting therapy.",
     "tags": [
       "HLA-B*57:01",
-      "Hypersensitivity",
+      "hypersensitivity",
       "HIV"
     ],
     "source": {
@@ -612,7 +612,7 @@
     "options": [
       "Use standard dose",
       "Reduce starting dose",
-      "Avoid / Choose alternative"
+      "Avoid / choose alternative"
     ],
     "correctIndex": 2,
     "mechanism": "HLA-B*58:01 strongly predisposes to severe cutaneous adverse reactions (SJS/TEN and DRESS) via oxypurinol-mediated T-cell activation.",
@@ -620,7 +620,7 @@
     "tags": [
       "HLA-B*58:01",
       "SCAR",
-      "Gout"
+      "gout"
     ],
     "source": {
       "label": "CPIC 2015",
@@ -637,7 +637,7 @@
     "options": [
       "Use standard dose",
       "Reduce starting dose",
-      "Avoid / Choose alternative"
+      "Avoid / choose alternative"
     ],
     "correctIndex": 2,
     "mechanism": "HLA-B*15:02 binds carbamazepine directly, triggering cytotoxic T-cell-mediated Stevens-Johnson syndrome / TEN.",
@@ -645,7 +645,7 @@
     "tags": [
       "HLA-B*15:02",
       "SJS/TEN",
-      "Neurology"
+      "neurology"
     ],
     "source": {
       "label": "CPIC 2017",
@@ -657,20 +657,20 @@
     "category": "pgx",
     "promptType": "action",
     "context": "CPIC Level A",
-    "prompt": "Simvastatin 40 mg + SLCO1B1 Poor Function",
+    "prompt": "Simvastatin 40 mg + SLCO1B1 poor function",
     "question": "Recommended prescribing action?",
     "options": [
       "Use standard dose",
       "Reduce starting dose",
-      "Avoid / Choose alternative"
+      "Avoid / choose alternative"
     ],
     "correctIndex": 2,
     "mechanism": "Impaired hepatic OATP1B1 uptake (SLCO1B1 c.521T>C) leaves high simvastatin acid levels in systemic circulation.",
-    "pearl": "Avoid simvastatin at 40 mg (and generally choose an alternative statin such as rosuvastatin <=20 mg or fluvastatin) due to high myopathy risk.",
+    "pearl": "Avoid simvastatin at 40 mg (and generally choose an alternative statin such as rosuvastatin ≤20 mg or fluvastatin) due to high myopathy risk.",
     "tags": [
       "SLCO1B1",
-      "Transporter",
-      "Statin"
+      "transporter",
+      "statin"
     ],
     "source": {
       "label": "CPIC 2022",
@@ -682,20 +682,20 @@
     "category": "pgx",
     "promptType": "action",
     "context": "CPIC Level A",
-    "prompt": "Fluorouracil (5-FU) + DPYD Intermediate Metabolizer",
+    "prompt": "Fluorouracil (5-FU) + DPYD intermediate metabolizer",
     "question": "Recommended prescribing action?",
     "options": [
       "Use standard dose",
       "Reduce starting dose",
-      "Avoid / Choose alternative"
+      "Avoid / choose alternative"
     ],
     "correctIndex": 1,
     "mechanism": "Partial dihydropyrimidine dehydrogenase (DPD) deficiency impairs 5-FU catabolism, causing excess cytotoxic metabolites.",
     "pearl": "Reduce starting dose by ~50%, then titrate cautiously based on toxicity or therapeutic drug monitoring.",
     "tags": [
       "DPYD",
-      "Oncology",
-      "Fluoropyrimidine"
+      "oncology",
+      "fluoropyrimidine"
     ],
     "source": {
       "label": "CPIC 2017",
@@ -706,21 +706,21 @@
     "id": "pgx-06",
     "category": "pgx",
     "promptType": "action",
-    "context": "CPIC Level A (Activity Score 0)",
-    "prompt": "Capecitabine + DPYD Poor Metabolizer",
+    "context": "CPIC Level A (activity score 0)",
+    "prompt": "Capecitabine + DPYD poor metabolizer",
     "question": "Recommended prescribing action?",
     "options": [
       "Use standard dose",
       "Reduce starting dose",
-      "Avoid / Choose alternative"
+      "Avoid / choose alternative"
     ],
     "correctIndex": 2,
     "mechanism": "Complete DPD deficiency blocks fluorouracil breakdown, causing extreme, potentially fatal bone marrow and GI toxicity.",
     "pearl": "Avoid 5-FU and capecitabine entirely; select an alternative non-fluoropyrimidine regimen.",
     "tags": [
       "DPYD",
-      "Oncology",
-      "High Risk"
+      "oncology",
+      "high risk"
     ],
     "source": {
       "label": "CPIC 2017",
@@ -732,12 +732,12 @@
     "category": "pgx",
     "promptType": "action",
     "context": "CPIC Level A (non-malignant indication, e.g., IBD)",
-    "prompt": "Azathioprine + TPMT or NUDT15 Poor Metabolizer",
+    "prompt": "Azathioprine + TPMT or NUDT15 poor metabolizer",
     "question": "Recommended prescribing action?",
     "options": [
       "Use standard dose",
       "Reduce starting dose",
-      "Avoid / Choose alternative"
+      "Avoid / choose alternative"
     ],
     "correctIndex": 2,
     "mechanism": "Loss of TPMT or NUDT15 causes massive accumulation of cytotoxic thioguanine nucleotides in hematopoietic cells.",
@@ -745,7 +745,7 @@
     "tags": [
       "TPMT",
       "NUDT15",
-      "Immunosuppressant"
+      "immunosuppressant"
     ],
     "source": {
       "label": "CPIC 2018",
@@ -757,20 +757,20 @@
     "category": "pgx",
     "promptType": "action",
     "context": "CPIC Level A",
-    "prompt": "Azathioprine + TPMT Intermediate Metabolizer",
+    "prompt": "Azathioprine + TPMT intermediate metabolizer",
     "question": "Recommended prescribing action?",
     "options": [
       "Use standard dose",
       "Reduce starting dose",
-      "Avoid / Choose alternative"
+      "Avoid / choose alternative"
     ],
     "correctIndex": 1,
     "mechanism": "Reduced TPMT methylation shunts more drug toward active 6-TGN metabolites, increasing myelosuppression risk.",
     "pearl": "Start at 30–80% of standard dose and titrate slowly while monitoring CBC.",
     "tags": [
       "TPMT",
-      "Thiopurine",
-      "Dose Reduction"
+      "thiopurine",
+      "dose reduction"
     ],
     "source": {
       "label": "CPIC 2018",
@@ -782,12 +782,12 @@
     "category": "pgx",
     "promptType": "action",
     "context": "CPIC Level A",
-    "prompt": "Citalopram / Escitalopram + CYP2C19 Poor Metabolizer",
+    "prompt": "Citalopram / escitalopram + CYP2C19 poor metabolizer",
     "question": "Recommended prescribing action?",
     "options": [
       "Use standard dose",
       "Reduce starting dose",
-      "Avoid / Choose alternative"
+      "Avoid / choose alternative"
     ],
     "correctIndex": 1,
     "mechanism": "Impaired CYP2C19 clearance significantly raises plasma citalopram/escitalopram exposure and QTc prolongation risk.",
@@ -807,12 +807,12 @@
     "category": "pgx",
     "promptType": "action",
     "context": "CPIC Level A (antidepressant dosing)",
-    "prompt": "Amitriptyline + CYP2D6 Poor Metabolizer",
+    "prompt": "Amitriptyline + CYP2D6 poor metabolizer",
     "question": "Recommended prescribing action?",
     "options": [
       "Use standard dose",
       "Reduce starting dose",
-      "Avoid / Choose alternative"
+      "Avoid / choose alternative"
     ],
     "correctIndex": 2,
     "mechanism": "Impaired CYP2D6 hydroxylation increases plasma TCA concentrations and risk of anticholinergic, CNS, and cardiac toxicity.",
@@ -820,7 +820,7 @@
     "tags": [
       "CYP2D6",
       "TCA",
-      "Psychiatry"
+      "psychiatry"
     ],
     "source": {
       "label": "CPIC 2016",
@@ -832,12 +832,12 @@
     "category": "pgx",
     "promptType": "action",
     "context": "CPIC Level A (antidepressant dosing)",
-    "prompt": "Amitriptyline + CYP2D6 Ultra-Rapid Metabolizer",
+    "prompt": "Amitriptyline + CYP2D6 ultrarapid metabolizer",
     "question": "Recommended prescribing action?",
     "options": [
       "Use standard dose",
       "Increase starting dose",
-      "Avoid / Choose alternative"
+      "Avoid / choose alternative"
     ],
     "correctIndex": 2,
     "mechanism": "Accelerated CYP2D6 metabolism rapidly clears active TCA, leading to subtherapeutic levels and treatment failure.",
@@ -845,7 +845,7 @@
     "tags": [
       "CYP2D6",
       "TCA",
-      "Ultra-Rapid"
+      "ultrarapid"
     ],
     "source": {
       "label": "CPIC 2016",
@@ -857,20 +857,20 @@
     "category": "pgx",
     "promptType": "action",
     "context": "CPIC Level A",
-    "prompt": "Voriconazole + CYP2C19 Ultra-Rapid Metabolizer",
+    "prompt": "Voriconazole + CYP2C19 ultrarapid metabolizer",
     "question": "Recommended prescribing action?",
     "options": [
       "Use standard dose",
       "Increase starting dose",
-      "Avoid / Choose alternative"
+      "Avoid / choose alternative"
     ],
     "correctIndex": 2,
     "mechanism": "Rapid CYP2C19-mediated clearance prevents attainment of therapeutic voriconazole trough concentrations.",
     "pearl": "Choose an alternative antifungal not dependent on CYP2C19 (e.g., isavuconazole, liposomal amphotericin B, posaconazole).",
     "tags": [
       "CYP2C19",
-      "Antifungal",
-      "Ultra-Rapid"
+      "antifungal",
+      "ultrarapid"
     ],
     "source": {
       "label": "CPIC 2016",
@@ -882,12 +882,12 @@
     "category": "pgx",
     "promptType": "action",
     "context": "CPIC Level A (H. pylori or erosive esophagitis)",
-    "prompt": "Omeprazole + CYP2C19 Ultra-Rapid Metabolizer",
+    "prompt": "Omeprazole + CYP2C19 ultrarapid metabolizer",
     "question": "Recommended prescribing action?",
     "options": [
       "Use standard dose",
       "Increase starting dose",
-      "Avoid / Choose alternative"
+      "Avoid / choose alternative"
     ],
     "correctIndex": 1,
     "mechanism": "Increased CYP2C19 activity accelerates omeprazole inactivation, resulting in inadequate gastric acid suppression.",
@@ -895,7 +895,7 @@
     "tags": [
       "CYP2C19",
       "PPI",
-      "Ultra-Rapid"
+      "ultrarapid"
     ],
     "source": {
       "label": "CPIC 2020",
@@ -907,20 +907,20 @@
     "category": "pgx",
     "promptType": "action",
     "context": "CPIC Level A",
-    "prompt": "Tacrolimus + CYP3A5 Expresser (*1/*1 or *1/*3)",
+    "prompt": "Tacrolimus + CYP3A5 normal or intermediate metabolizer (*1/*1 or *1/*3)",
     "question": "Recommended prescribing action?",
     "options": [
       "Use standard dose",
       "Increase starting dose",
-      "Avoid / Choose alternative"
+      "Avoid / choose alternative"
     ],
     "correctIndex": 1,
-    "mechanism": "Most Europeans are CYP3A5 non-expressers (*3/*3); functional CYP3A5 expressers clear tacrolimus significantly faster.",
+    "mechanism": "Most people of European ancestry are CYP3A5 poor metabolizers (*3/*3, historically called nonexpressers); carriers of a functional *1 allele (historically called CYP3A5 expressers) clear tacrolimus significantly faster.",
     "pearl": "Increase starting dose 1.5–2x (up to 0.3 mg/kg/day) and use TDM to avoid early subtherapeutic troughs and graft rejection.",
     "tags": [
       "CYP3A5",
-      "Transplant",
-      "Dose Increase"
+      "transplant",
+      "dose increase"
     ],
     "source": {
       "label": "CPIC 2015",
@@ -937,7 +937,7 @@
     "options": [
       "Use standard dose",
       "Reduce starting dose",
-      "Avoid / Choose alternative"
+      "Avoid / choose alternative"
     ],
     "correctIndex": 1,
     "mechanism": "CYP2C9*3/*3 severely impairs S-warfarin clearance while VKORC1 (-1639G>A) AA lowers target enzyme expression, multiplying warfarin sensitivity.",
@@ -945,7 +945,7 @@
     "tags": [
       "CYP2C9",
       "VKORC1",
-      "Anticoagulant"
+      "anticoagulant"
     ],
     "source": {
       "label": "CPIC 2017",
@@ -957,20 +957,20 @@
     "category": "pgx",
     "promptType": "action",
     "context": "CPIC Level A",
-    "prompt": "Phenytoin + CYP2C9 Poor Metabolizer",
+    "prompt": "Phenytoin + CYP2C9 poor metabolizer",
     "question": "Recommended prescribing action?",
     "options": [
       "Use standard dose",
       "Reduce starting dose",
-      "Avoid / Choose alternative"
+      "Avoid / choose alternative"
     ],
     "correctIndex": 1,
     "mechanism": "Phenytoin exhibits saturable (Michaelis-Menten) CYP2C9 kinetics; low CYP2C9 activity causes steep plasma accumulation.",
     "pearl": "Give standard loading dose if needed acutely, then reduce maintenance dose by ~50% and monitor free phenytoin levels for ataxia/nystagmus.",
     "tags": [
       "CYP2C9",
-      "Antiepileptic",
-      "Nonlinear PK"
+      "antiepileptic",
+      "nonlinear PK"
     ],
     "source": {
       "label": "CPIC 2020",
@@ -982,12 +982,12 @@
     "category": "pgx",
     "promptType": "action",
     "context": "CPIC Level A",
-    "prompt": "Celecoxib / Ibuprofen + CYP2C9 Poor Metabolizer",
+    "prompt": "Celecoxib / ibuprofen + CYP2C9 poor metabolizer",
     "question": "Recommended prescribing action?",
     "options": [
       "Use standard dose",
       "Reduce starting dose",
-      "Avoid / Choose alternative"
+      "Avoid / choose alternative"
     ],
     "correctIndex": 1,
     "mechanism": "Impaired CYP2C9 metabolism prolongs NSAID half-life and systemic exposure, elevating GI bleeding, renal, and cardiovascular risk.",
@@ -995,7 +995,7 @@
     "tags": [
       "CYP2C9",
       "NSAID",
-      "Dose Reduction"
+      "dose reduction"
     ],
     "source": {
       "label": "CPIC 2020",
@@ -1007,20 +1007,20 @@
     "category": "pgx",
     "promptType": "action",
     "context": "CPIC Level A",
-    "prompt": "Ondansetron + CYP2D6 Ultra-Rapid Metabolizer",
+    "prompt": "Ondansetron + CYP2D6 ultrarapid metabolizer",
     "question": "Recommended prescribing action?",
     "options": [
       "Use standard dose",
       "Increase starting dose",
-      "Avoid / Choose alternative"
+      "Avoid / choose alternative"
     ],
     "correctIndex": 2,
     "mechanism": "Rapid CYP2D6 clearance lowers ondansetron exposure, significantly increasing risk of antiemetic failure (vomiting).",
     "pearl": "Switch to an alternative 5-HT3 antagonist not primarily metabolized by CYP2D6, such as granisetron.",
     "tags": [
       "CYP2D6",
-      "Antiemetic",
-      "Ultra-Rapid"
+      "antiemetic",
+      "ultrarapid"
     ],
     "source": {
       "label": "CPIC 2016",
@@ -1032,20 +1032,20 @@
     "category": "pgx",
     "promptType": "action",
     "context": "CPIC Level A",
-    "prompt": "Rasburicase + G6PD Deficiency",
+    "prompt": "Rasburicase + G6PD deficiency",
     "question": "Recommended prescribing action?",
     "options": [
       "Use standard dose",
       "Reduce starting dose",
-      "Avoid / Choose alternative"
+      "Avoid / choose alternative"
     ],
     "correctIndex": 2,
     "mechanism": "Rasburicase generates hydrogen peroxide as it converts uric acid to allantoin; G6PD-deficient RBCs cannot neutralize the oxidative stress.",
     "pearl": "Strictly contraindicated due to severe acute hemolytic anemia and methemoglobinemia; screen high-risk patients before dosing.",
     "tags": [
       "G6PD",
-      "Hemolysis",
-      "Oncology"
+      "hemolysis",
+      "oncology"
     ],
     "source": {
       "label": "CPIC 2022",
@@ -1057,20 +1057,20 @@
     "category": "pgx",
     "promptType": "action",
     "context": "CPIC Level A (standard daily radical cure dose)",
-    "prompt": "Primaquine (high/standard daily dose) + G6PD Deficiency",
+    "prompt": "Primaquine (standard daily dose) + G6PD deficiency",
     "question": "Recommended prescribing action?",
     "options": [
       "Use standard dose",
       "Reduce starting dose",
-      "Avoid / Choose alternative"
+      "Avoid / choose alternative"
     ],
     "correctIndex": 2,
     "mechanism": "Primaquine metabolites generate reactive oxygen species that overwhelm glutathione-depleted G6PD-deficient erythrocytes.",
     "pearl": "Avoid standard daily dosing due to acute hemolytic anemia (in milder G6PD variants, WHO permits a supervised weekly regimen).",
     "tags": [
       "G6PD",
-      "Hemolysis",
-      "Antimalarial"
+      "hemolysis",
+      "antimalarial"
     ],
     "source": {
       "label": "CPIC 2022",
@@ -1081,21 +1081,21 @@
     "id": "pgx-21",
     "category": "pgx",
     "promptType": "action",
-    "context": "DPWG / FDA PGx Table (dose >250 mg/m²)",
-    "prompt": "Irinotecan + UGT1A1*28/*28 (Poor Metabolizer)",
+    "context": "DPWG / FDA PGx table (dose >250 mg/m²)",
+    "prompt": "Irinotecan + UGT1A1 poor metabolizer (*28/*28)",
     "question": "Recommended prescribing action?",
     "options": [
       "Use standard dose",
       "Reduce starting dose",
-      "Avoid / Choose alternative"
+      "Avoid / choose alternative"
     ],
     "correctIndex": 1,
     "mechanism": "Reduced UGT1A1 glucuronidation slows inactivation of SN-38 (the active topoisomerase I inhibitor metabolite).",
     "pearl": "Reduce starting dose (e.g., ~30% reduction on higher-dose regimens) to prevent severe neutropenia and delayed diarrhea.",
     "tags": [
       "UGT1A1",
-      "Oncology",
-      "Glucuronidation"
+      "oncology",
+      "glucuronidation"
     ],
     "source": {
       "label": "DPWG / FDA PGx",
@@ -1107,12 +1107,12 @@
     "category": "pgx",
     "promptType": "action",
     "context": "CPIC Level A",
-    "prompt": "Atazanavir + UGT1A1 Poor Metabolizer (*28/*28)",
+    "prompt": "Atazanavir + UGT1A1 poor metabolizer (*28/*28)",
     "question": "Recommended prescribing action?",
     "options": [
       "Use standard dose",
       "Reduce starting dose",
-      "Avoid / Choose alternative"
+      "Avoid / choose alternative"
     ],
     "correctIndex": 2,
     "mechanism": "Atazanavir inhibits UGT1A1; in genetic UGT1A1 PMs, unconjugated bilirubin rises markedly, causing visible jaundice.",
@@ -1120,7 +1120,7 @@
     "tags": [
       "UGT1A1",
       "HIV",
-      "Hyperbilirubinemia"
+      "hyperbilirubinemia"
     ],
     "source": {
       "label": "CPIC 2015",
@@ -1132,12 +1132,12 @@
     "category": "pgx",
     "promptType": "action",
     "context": "CPIC Level A",
-    "prompt": "Atomoxetine + CYP2D6 Poor Metabolizer",
+    "prompt": "Atomoxetine + CYP2D6 poor metabolizer",
     "question": "Recommended prescribing action?",
     "options": [
       "Use standard dose",
       "Reduce starting dose",
-      "Avoid / Choose alternative"
+      "Avoid / choose alternative"
     ],
     "correctIndex": 1,
     "mechanism": "CYP2D6 is the primary clearance pathway; PMs experience ~10-fold higher steady-state atomoxetine exposure.",
@@ -1145,7 +1145,7 @@
     "tags": [
       "CYP2D6",
       "ADHD",
-      "Dose Reduction"
+      "dose reduction"
     ],
     "source": {
       "label": "CPIC 2019",
@@ -1162,15 +1162,15 @@
     "options": [
       "Use standard dose",
       "Reduce starting dose",
-      "Avoid / Choose alternative"
+      "Avoid / choose alternative"
     ],
     "correctIndex": 2,
     "mechanism": "Mitochondrial 12S rRNA variant makes human mitochondrial ribosomes resemble bacterial targets, causing cochlear hair cell death.",
     "pearl": "Avoid aminoglycosides unless no safe alternative exists; even a single standard dose can cause rapid, irreversible bilateral deafness.",
     "tags": [
       "MT-RNR1",
-      "Ototoxicity",
-      "Antibiotic"
+      "ototoxicity",
+      "antibiotic"
     ],
     "source": {
       "label": "CPIC 2021",
@@ -1181,12 +1181,12 @@
     "id": "prodrug-01",
     "category": "prodrug",
     "promptType": "effect",
-    "context": "Prodrug Bioactivation",
-    "prompt": "Clopidogrel + CYP2C19 Poor Metabolizer",
+    "context": "Prodrug bioactivation",
+    "prompt": "Clopidogrel + CYP2C19 poor metabolizer",
     "question": "Expected clinical outcome?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 1,
@@ -1194,8 +1194,8 @@
     "pearl": "Poor metabolizers suffer higher rates of stent thrombosis and MACE; use prasugrel or ticagrelor instead.",
     "tags": [
       "CYP2C19",
-      "Prodrug",
-      "Antiplatelet"
+      "prodrug",
+      "antiplatelet"
     ],
     "source": {
       "label": "CPIC 2022",
@@ -1206,12 +1206,12 @@
     "id": "prodrug-02",
     "category": "prodrug",
     "promptType": "effect",
-    "context": "Prodrug Bioactivation",
-    "prompt": "Clopidogrel + Omeprazole",
+    "context": "Prodrug bioactivation",
+    "prompt": "Clopidogrel + omeprazole",
     "question": "Expected clinical effect on clopidogrel?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 1,
@@ -1219,7 +1219,7 @@
     "pearl": "Avoid omeprazole and esomeprazole with clopidogrel; switch to pantoprazole for GI prophylaxis.",
     "tags": [
       "CYP2C19",
-      "Prodrug",
+      "prodrug",
       "PPI"
     ],
     "source": {
@@ -1231,21 +1231,21 @@
     "id": "prodrug-03",
     "category": "prodrug",
     "promptType": "effect",
-    "context": "Prodrug Bioactivation",
-    "prompt": "Codeine + CYP2D6 Ultra-Rapid Metabolizer",
+    "context": "Prodrug bioactivation",
+    "prompt": "Codeine + CYP2D6 ultrarapid metabolizer",
     "question": "Expected clinical outcome?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 0,
-    "mechanism": "Ultra-rapid CYP2D6 O-demethylation floods the circulation with morphine from a normal codeine dose.",
+    "mechanism": "Ultrarapid CYP2D6 O-demethylation floods the circulation with morphine from a normal codeine dose.",
     "pearl": "Avoid codeine entirely due to risk of life-threatening respiratory depression (especially fatal in children and breastfed infants).",
     "tags": [
       "CYP2D6",
-      "Prodrug",
-      "Opioid"
+      "prodrug",
+      "opioid"
     ],
     "source": {
       "label": "CPIC 2020",
@@ -1256,12 +1256,12 @@
     "id": "prodrug-04",
     "category": "prodrug",
     "promptType": "effect",
-    "context": "Prodrug Bioactivation",
-    "prompt": "Codeine + CYP2D6 Poor Metabolizer",
+    "context": "Prodrug bioactivation",
+    "prompt": "Codeine + CYP2D6 poor metabolizer",
     "question": "Expected clinical outcome?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 1,
@@ -1269,8 +1269,8 @@
     "pearl": "Expect treatment failure (no pain relief); switch to a non-CYP2D6 analgesic such as morphine or an NSAID.",
     "tags": [
       "CYP2D6",
-      "Prodrug",
-      "Opioid"
+      "prodrug",
+      "opioid"
     ],
     "source": {
       "label": "CPIC 2020",
@@ -1281,21 +1281,21 @@
     "id": "prodrug-05",
     "category": "prodrug",
     "promptType": "effect",
-    "context": "Prodrug Bioactivation",
-    "prompt": "Tramadol + CYP2D6 Ultra-Rapid Metabolizer",
+    "context": "Prodrug bioactivation",
+    "prompt": "Tramadol + CYP2D6 ultrarapid metabolizer",
     "question": "Expected clinical outcome?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 0,
     "mechanism": "Excessive CYP2D6 conversion generates high levels of O-desmethyltramadol (M1), which has ~200x higher mu-opioid affinity than parent tramadol.",
-    "pearl": "Avoid tramadol in CYP2D6 ultra-rapid metabolizers due to opioid overdose and respiratory depression risk.",
+    "pearl": "Avoid tramadol in CYP2D6 ultrarapid metabolizers due to opioid overdose and respiratory depression risk.",
     "tags": [
       "CYP2D6",
-      "Prodrug",
-      "Opioid"
+      "prodrug",
+      "opioid"
     ],
     "source": {
       "label": "CPIC 2020",
@@ -1306,12 +1306,12 @@
     "id": "prodrug-06",
     "category": "prodrug",
     "promptType": "effect",
-    "context": "Prodrug Bioactivation",
-    "prompt": "Tramadol + CYP2D6 Poor Metabolizer",
+    "context": "Prodrug bioactivation",
+    "prompt": "Tramadol + CYP2D6 poor metabolizer",
     "question": "Expected clinical outcome?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 1,
@@ -1319,8 +1319,8 @@
     "pearl": "Poor opioid analgesia while retaining serotonergic and seizure side effects; choose a non-CYP2D6 analgesic.",
     "tags": [
       "CYP2D6",
-      "Prodrug",
-      "Opioid"
+      "prodrug",
+      "opioid"
     ],
     "source": {
       "label": "CPIC 2020",
@@ -1331,12 +1331,12 @@
     "id": "prodrug-07",
     "category": "prodrug",
     "promptType": "effect",
-    "context": "Prodrug Bioactivation",
-    "prompt": "Tamoxifen + CYP2D6 Poor Metabolizer",
+    "context": "Prodrug bioactivation",
+    "prompt": "Tamoxifen + CYP2D6 poor metabolizer",
     "question": "Expected clinical outcome?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 1,
@@ -1344,8 +1344,8 @@
     "pearl": "Higher risk of breast cancer recurrence; consider an aromatase inhibitor (postmenopausal) or higher-dose tamoxifen (40 mg/day) per CPIC.",
     "tags": [
       "CYP2D6",
-      "Prodrug",
-      "Oncology"
+      "prodrug",
+      "oncology"
     ],
     "source": {
       "label": "CPIC 2018",
@@ -1356,12 +1356,12 @@
     "id": "prodrug-08",
     "category": "prodrug",
     "promptType": "effect",
-    "context": "Prodrug + Inhibitor",
-    "prompt": "Codeine + Fluoxetine",
+    "context": "Prodrug + inhibitor",
+    "prompt": "Codeine + fluoxetine",
     "question": "Expected clinical effect on codeine analgesia?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 1,
@@ -1369,8 +1369,8 @@
     "pearl": "Classic prodrug flip: inhibiting the enzyme reduces efficacy instead of causing toxicity.",
     "tags": [
       "CYP2D6",
-      "Prodrug",
-      "Inhibitor"
+      "prodrug",
+      "inhibitor"
     ],
     "source": {
       "label": "Flockhart Table",
@@ -1381,12 +1381,12 @@
     "id": "prodrug-09",
     "category": "prodrug",
     "promptType": "effect",
-    "context": "Prodrug + Inhibitor",
-    "prompt": "Tramadol + Bupropion",
+    "context": "Prodrug + inhibitor",
+    "prompt": "Tramadol + bupropion",
     "question": "Expected effect on tramadol's opioid analgesia?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 1,
@@ -1394,8 +1394,8 @@
     "pearl": "Worst of both worlds: blunted opioid pain relief plus heightened seizure risk; avoid combination.",
     "tags": [
       "CYP2D6",
-      "Prodrug",
-      "Seizure Risk"
+      "prodrug",
+      "seizure risk"
     ],
     "source": {
       "label": "FDA DDI Table",
@@ -1406,12 +1406,12 @@
     "id": "prodrug-10",
     "category": "prodrug",
     "promptType": "effect",
-    "context": "Prodrug Bioactivation",
-    "prompt": "Losartan + Fluconazole",
+    "context": "Prodrug bioactivation",
+    "prompt": "Losartan + fluconazole",
     "question": "Expected clinical effect on blood pressure lowering?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 1,
@@ -1419,7 +1419,7 @@
     "pearl": "CYP2C9 inhibition blunts losartan's antihypertensive effect—unlike most CYP2C9 substrates where inhibition causes toxicity.",
     "tags": [
       "CYP2C9",
-      "Prodrug",
+      "prodrug",
       "ARB"
     ],
     "source": {
@@ -1431,21 +1431,21 @@
     "id": "prodrug-11",
     "category": "prodrug",
     "promptType": "effect",
-    "context": "Prodrug + Inducer",
-    "prompt": "Clopidogrel + Rifampin",
+    "context": "Prodrug + inducer",
+    "prompt": "Clopidogrel + rifampin",
     "question": "Expected clinical effect on antiplatelet activity?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 0,
     "mechanism": "Rifampin strongly induces CYP2C19 and CYP3A4, accelerating conversion of clopidogrel into its active thiol metabolite.",
-    "pearl": "Counterintuitive prodrug flip: an enzyme INDUCER increases active exposure and bleeding risk; avoid co-administration.",
+    "pearl": "Counterintuitive prodrug flip: an enzyme inducer increases active exposure and bleeding risk; avoid co-administration.",
     "tags": [
       "CYP2C19",
-      "Inducer",
-      "Prodrug"
+      "inducer",
+      "prodrug"
     ],
     "source": {
       "label": "FDA Label",
@@ -1456,12 +1456,12 @@
     "id": "prodrug-12",
     "category": "prodrug",
     "promptType": "effect",
-    "context": "Prodrug Bioactivation",
-    "prompt": "Hydrocodone + CYP2D6 Poor Metabolizer",
+    "context": "Prodrug bioactivation",
+    "prompt": "Hydrocodone + CYP2D6 poor metabolizer",
     "question": "Expected clinical outcome?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 1,
@@ -1469,8 +1469,8 @@
     "pearl": "Effect is less extreme than with codeine because parent hydrocodone has some activity, but switch if analgesia is inadequate.",
     "tags": [
       "CYP2D6",
-      "Prodrug",
-      "Opioid"
+      "prodrug",
+      "opioid"
     ],
     "source": {
       "label": "CPIC 2020",
@@ -1481,12 +1481,12 @@
     "id": "prodrug-13",
     "category": "prodrug",
     "promptType": "effect",
-    "context": "Prodrug Control Check",
-    "prompt": "Prasugrel + CYP2C19 Poor Metabolizer",
+    "context": "Prodrug control check",
+    "prompt": "Prasugrel + CYP2C19 poor metabolizer",
     "question": "Expected clinical outcome?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 2,
@@ -1494,8 +1494,8 @@
     "pearl": "Prasugrel (and ticagrelor) retains full antiplatelet efficacy in CYP2C19 poor metabolizers—making it a go-to alternative to clopidogrel.",
     "tags": [
       "CYP2C19",
-      "Prodrug",
-      "Antiplatelet"
+      "prodrug",
+      "antiplatelet"
     ],
     "source": {
       "label": "CPIC 2022",
@@ -1506,21 +1506,21 @@
     "id": "prodrug-14",
     "category": "prodrug",
     "promptType": "effect",
-    "context": "Active Drug Control Check",
-    "prompt": "Morphine + CYP2D6 Poor Metabolizer",
+    "context": "Active drug control check",
+    "prompt": "Morphine + CYP2D6 poor metabolizer",
     "question": "Expected clinical outcome?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 2,
     "mechanism": "Morphine is already pharmacologically active and cleared via UGT2B7 glucuronidation—not CYP2D6.",
-    "pearl": "Unlike codeine and tramadol, morphine requires no CYP2D6 bioactivation and is a safe choice in CYP2D6 poor or ultra-rapid metabolizers.",
+    "pearl": "Unlike codeine and tramadol, morphine requires no CYP2D6 bioactivation and is a safe choice in CYP2D6 poor or ultrarapid metabolizers.",
     "tags": [
       "CYP2D6",
       "UGT2B7",
-      "Opioid"
+      "opioid"
     ],
     "source": {
       "label": "CPIC 2020",
@@ -1531,11 +1531,11 @@
     "id": "pheno-01",
     "category": "phenoconversion",
     "promptType": "phenotype",
-    "context": "Baseline: CYP2D6 Normal Metabolizer",
-    "prompt": "Patient on Tamoxifen starts Fluoxetine",
+    "context": "Baseline: CYP2D6 normal metabolizer",
+    "prompt": "Patient on tamoxifen starts fluoxetine",
     "question": "Effective CYP2D6 phenotype?",
     "options": [
-      "Ultra-rapid metabolizer",
+      "Ultrarapid metabolizer",
       "Normal metabolizer (no phenoconversion)",
       "Poor metabolizer"
     ],
@@ -1544,8 +1544,8 @@
     "pearl": "Phenoconversion slashes endoxifen formation just like a genetic PM; avoid strong CYP2D6 inhibitors with tamoxifen.",
     "tags": [
       "CYP2D6",
-      "Phenoconversion",
-      "Oncology"
+      "phenoconversion",
+      "oncology"
     ],
     "source": {
       "label": "CPIC 2018",
@@ -1556,21 +1556,21 @@
     "id": "pheno-02",
     "category": "phenoconversion",
     "promptType": "phenotype",
-    "context": "Baseline: CYP2D6 Normal Metabolizer",
-    "prompt": "Patient on Codeine starts Paroxetine",
+    "context": "Baseline: CYP2D6 normal metabolizer",
+    "prompt": "Patient on codeine starts paroxetine",
     "question": "Effective CYP2D6 phenotype?",
     "options": [
-      "Ultra-rapid metabolizer",
+      "Ultrarapid metabolizer",
       "Normal metabolizer (no phenoconversion)",
       "Poor metabolizer"
     ],
     "correctIndex": 2,
     "mechanism": "Paroxetine is a mechanism-based strong CYP2D6 inhibitor, reducing CYP2D6 activity score to ~0.",
-    "pearl": "A genetic Normal Metabolizer taking paroxetine gets little to no morphine from codeine—treat them clinically as a CYP2D6 PM.",
+    "pearl": "A genetic normal metabolizer taking paroxetine gets little to no morphine from codeine—treat them clinically as a CYP2D6 PM.",
     "tags": [
       "CYP2D6",
-      "Phenoconversion",
-      "Opioid"
+      "phenoconversion",
+      "opioid"
     ],
     "source": {
       "label": "ClinPGx / FDA",
@@ -1581,21 +1581,21 @@
     "id": "pheno-03",
     "category": "phenoconversion",
     "promptType": "phenotype",
-    "context": "Baseline: CYP2D6 Intermediate Metabolizer",
-    "prompt": "Patient on Metoprolol starts Duloxetine (moderate CYP2D6 inhibitor)",
+    "context": "Baseline: CYP2D6 intermediate metabolizer",
+    "prompt": "Patient on metoprolol starts duloxetine (moderate CYP2D6 inhibitor)",
     "question": "Effective CYP2D6 phenotype?",
     "options": [
-      "Ultra-rapid metabolizer",
+      "Ultrarapid metabolizer",
       "Normal metabolizer (no phenoconversion)",
       "Poor metabolizer"
     ],
     "correctIndex": 2,
-    "mechanism": "Even a moderate CYP2D6 inhibitor pushes a genetically reduced-function IM down into functional Poor Metabolizer territory.",
+    "mechanism": "Even a moderate CYP2D6 inhibitor pushes a genetically reduced-function IM down into functional poor metabolizer territory.",
     "pearl": "IMs are uniquely vulnerable to moderate inhibitors; watch for amplified metoprolol bradycardia and fatigue.",
     "tags": [
       "CYP2D6",
-      "Phenoconversion",
-      "Moderate Inhibitor"
+      "phenoconversion",
+      "moderate inhibitor"
     ],
     "source": {
       "label": "ClinPGx",
@@ -1606,11 +1606,11 @@
     "id": "pheno-04",
     "category": "phenoconversion",
     "promptType": "phenotype",
-    "context": "Baseline: CYP2D6 Normal Metabolizer",
-    "prompt": "Patient on Nortriptyline starts Bupropion",
+    "context": "Baseline: CYP2D6 normal metabolizer",
+    "prompt": "Patient on nortriptyline starts bupropion",
     "question": "Effective CYP2D6 phenotype?",
     "options": [
-      "Ultra-rapid metabolizer",
+      "Ultrarapid metabolizer",
       "Normal metabolizer (no phenoconversion)",
       "Poor metabolizer"
     ],
@@ -1619,7 +1619,7 @@
     "pearl": "Nortriptyline plasma levels rise markedly, risking dry mouth, orthostasis, delirium, and QRS prolongation.",
     "tags": [
       "CYP2D6",
-      "Phenoconversion",
+      "phenoconversion",
       "TCA"
     ],
     "source": {
@@ -1631,11 +1631,11 @@
     "id": "pheno-05",
     "category": "phenoconversion",
     "promptType": "phenotype",
-    "context": "Baseline: CYP2D6 Normal Metabolizer",
-    "prompt": "Patient on Risperidone starts Quinidine",
+    "context": "Baseline: CYP2D6 normal metabolizer",
+    "prompt": "Patient on risperidone starts quinidine",
     "question": "Effective CYP2D6 phenotype?",
     "options": [
-      "Ultra-rapid metabolizer",
+      "Ultrarapid metabolizer",
       "Normal metabolizer (no phenoconversion)",
       "Poor metabolizer"
     ],
@@ -1644,8 +1644,8 @@
     "pearl": "Shifts risperidone-to-paliperidone ratio sharply upward; increases risk of extrapyramidal symptoms and sedation.",
     "tags": [
       "CYP2D6",
-      "Phenoconversion",
-      "Antipsychotic"
+      "phenoconversion",
+      "antipsychotic"
     ],
     "source": {
       "label": "FDA DDI Table",
@@ -1656,21 +1656,21 @@
     "id": "pheno-06",
     "category": "phenoconversion",
     "promptType": "phenotype",
-    "context": "Baseline: CYP2C19 Normal Metabolizer",
-    "prompt": "Patient on Clopidogrel starts Esomeprazole",
+    "context": "Baseline: CYP2C19 normal metabolizer",
+    "prompt": "Patient on clopidogrel starts esomeprazole",
     "question": "Effective CYP2C19 phenotype?",
     "options": [
-      "Ultra-rapid metabolizer",
+      "Ultrarapid metabolizer",
       "Normal metabolizer (no phenoconversion)",
       "Poor metabolizer"
     ],
     "correctIndex": 2,
     "mechanism": "Esomeprazole inhibits CYP2C19 strongly enough to mimic reduced/poor CYP2C19 function.",
-    "pearl": "Even if CYP2C19 genotyping shows *1/*1 (Normal), co-prescribing esomeprazole or omeprazole undermines clopidogrel activation.",
+    "pearl": "Even if CYP2C19 genotyping shows *1/*1 (normal), co-prescribing esomeprazole or omeprazole undermines clopidogrel activation.",
     "tags": [
       "CYP2C19",
-      "Phenoconversion",
-      "Antiplatelet"
+      "phenoconversion",
+      "antiplatelet"
     ],
     "source": {
       "label": "FDA Label",
@@ -1681,20 +1681,20 @@
     "id": "pheno-07",
     "category": "phenoconversion",
     "promptType": "phenotype",
-    "context": "Baseline: CYP2C19 Intermediate Metabolizer",
-    "prompt": "Patient on Escitalopram starts Fluvoxamine",
+    "context": "Baseline: CYP2C19 intermediate metabolizer",
+    "prompt": "Patient on escitalopram starts fluvoxamine",
     "question": "Effective CYP2C19 phenotype?",
     "options": [
-      "Ultra-rapid metabolizer",
+      "Ultrarapid metabolizer",
       "Normal metabolizer (no phenoconversion)",
       "Poor metabolizer"
     ],
     "correctIndex": 2,
-    "mechanism": "Fluvoxamine is a strong CYP2C19 inhibitor, pushing an IM fully into Poor Metabolizer status.",
+    "mechanism": "Fluvoxamine is a strong CYP2C19 inhibitor, pushing an IM fully into poor metabolizer status.",
     "pearl": "Spikes escitalopram exposure (QTc risk) on top of additive serotonin syndrome risk; never combine.",
     "tags": [
       "CYP2C19",
-      "Phenoconversion",
+      "phenoconversion",
       "SSRI"
     ],
     "source": {
@@ -1706,21 +1706,21 @@
     "id": "pheno-08",
     "category": "phenoconversion",
     "promptType": "phenotype",
-    "context": "Baseline: CYP2C19 Normal Metabolizer",
-    "prompt": "Patient on Voriconazole starts Rifampin",
+    "context": "Baseline: CYP2C19 normal metabolizer",
+    "prompt": "Patient on voriconazole starts rifampin",
     "question": "Effective CYP2C19 phenotype?",
     "options": [
-      "Ultra-rapid metabolizer",
+      "Ultrarapid metabolizer",
       "Normal metabolizer (no phenoconversion)",
       "Poor metabolizer"
     ],
     "correctIndex": 0,
-    "mechanism": "Rifampin strongly induces CYP2C19 (and CYP3A4), driving functional clearance beyond normal into ultra-rapid territory.",
-    "pearl": "Phenoconversion goes both ways: strong inducers can mimic Ultra-Rapid Metabolizer status, rendering voriconazole subtherapeutic (contraindicated).",
+    "mechanism": "Rifampin strongly induces CYP2C19 (and CYP3A4), driving functional clearance beyond normal into ultrarapid territory.",
+    "pearl": "Phenoconversion goes both ways: strong inducers can mimic ultrarapid metabolizer status, rendering voriconazole subtherapeutic (contraindicated).",
     "tags": [
       "CYP2C19",
-      "Phenoconversion",
-      "Inducer"
+      "phenoconversion",
+      "inducer"
     ],
     "source": {
       "label": "FDA DDI Table",
@@ -1731,11 +1731,11 @@
     "id": "pheno-09",
     "category": "phenoconversion",
     "promptType": "phenotype",
-    "context": "Baseline: CYP2C9 Normal Metabolizer",
-    "prompt": "Patient on Warfarin starts Fluconazole",
+    "context": "Baseline: CYP2C9 normal metabolizer",
+    "prompt": "Patient on warfarin starts fluconazole",
     "question": "Effective CYP2C9 phenotype?",
     "options": [
-      "Ultra-rapid metabolizer",
+      "Ultrarapid metabolizer",
       "Normal metabolizer (no phenoconversion)",
       "Poor metabolizer"
     ],
@@ -1744,8 +1744,8 @@
     "pearl": "Always interpret a PGx report alongside the current medication list—a strong inhibitor overrides a reassuring genotype.",
     "tags": [
       "CYP2C9",
-      "Phenoconversion",
-      "Anticoagulant"
+      "phenoconversion",
+      "anticoagulant"
     ],
     "source": {
       "label": "ClinPGx",
@@ -1756,11 +1756,11 @@
     "id": "pheno-10",
     "category": "phenoconversion",
     "promptType": "phenotype",
-    "context": "Baseline: CYP2D6 Normal Metabolizer",
-    "prompt": "Patient on Atomoxetine starts Oral Terbinafine",
+    "context": "Baseline: CYP2D6 normal metabolizer",
+    "prompt": "Patient on atomoxetine starts oral terbinafine",
     "question": "Effective CYP2D6 phenotype?",
     "options": [
-      "Ultra-rapid metabolizer",
+      "Ultrarapid metabolizer",
       "Normal metabolizer (no phenoconversion)",
       "Poor metabolizer"
     ],
@@ -1769,8 +1769,8 @@
     "pearl": "High-yield blind spot: a routine toenail fungus prescription can phenoconvert a patient into a CYP2D6 PM for weeks.",
     "tags": [
       "CYP2D6",
-      "Phenoconversion",
-      "Antifungal"
+      "phenoconversion",
+      "antifungal"
     ],
     "source": {
       "label": "FDA DDI Table",
@@ -1781,11 +1781,11 @@
     "id": "pheno-11",
     "category": "phenoconversion",
     "promptType": "phenotype",
-    "context": "Baseline: CYP2D6 Normal Metabolizer",
-    "prompt": "Patient on Tamoxifen starts Venlafaxine",
+    "context": "Baseline: CYP2D6 normal metabolizer",
+    "prompt": "Patient on tamoxifen starts venlafaxine",
     "question": "Effective CYP2D6 phenotype?",
     "options": [
-      "Ultra-rapid metabolizer",
+      "Ultrarapid metabolizer",
       "Normal metabolizer (no phenoconversion)",
       "Poor metabolizer"
     ],
@@ -1794,8 +1794,8 @@
     "pearl": "Venlafaxine (or desvenlafaxine/citalopram) is the preferred choice for hot flashes or depression in patients taking tamoxifen.",
     "tags": [
       "CYP2D6",
-      "Phenoconversion",
-      "Control"
+      "phenoconversion",
+      "control"
     ],
     "source": {
       "label": "CPIC 2018",
@@ -1806,21 +1806,21 @@
     "id": "pheno-12",
     "category": "phenoconversion",
     "promptType": "phenotype",
-    "context": "Baseline: CYP2C19 Poor Metabolizer (*2/*2)",
-    "prompt": "Adding Omeprazole to Escitalopram",
+    "context": "Baseline: CYP2C19 poor metabolizer (*2/*2)",
+    "prompt": "Adding omeprazole to escitalopram",
     "question": "Effective CYP2C19 phenotype?",
     "options": [
-      "Even lower than Poor Metabolizer (major extra DDI)",
-      "Still Poor Metabolizer (no further CYP2C19 inhibition)",
-      "Shifts to Intermediate Metabolizer"
+      "Even lower than poor metabolizer (major extra DDI)",
+      "Still poor metabolizer (no further CYP2C19 inhibition)",
+      "Shifts to intermediate metabolizer"
     ],
     "correctIndex": 1,
     "mechanism": "Genetic *2/*2 homozygotes already have zero functional CYP2C19 enzyme—an inhibitor cannot inhibit an enzyme that isn't active.",
-    "pearl": "Key PGx-DDI interaction rule: enzyme inhibitors cause the largest fold-change in Normal/Ultra-rapid metabolizers, and minimal additional PK shift in genetic PMs.",
+    "pearl": "Key PGx-DDI interaction rule: enzyme inhibitors cause the largest fold-change in normal/ultrarapid metabolizers, and minimal additional PK shift in genetic PMs.",
     "tags": [
       "CYP2C19",
-      "Phenoconversion",
-      "Mechanistic Pearl"
+      "phenoconversion",
+      "mechanistic pearl"
     ],
     "source": {
       "label": "ClinPGx",
@@ -1831,7 +1831,7 @@
     "id": "ddi-pd-01",
     "category": "ddi-pd",
     "promptType": "hazard",
-    "prompt": "Sildenafil + Nitroglycerin",
+    "prompt": "Sildenafil + nitroglycerin",
     "question": "Expected clinical hazard?",
     "options": [
       "Severe, refractory hypotension",
@@ -1843,8 +1843,8 @@
     "pearl": "Strictly contraindicated; wait at least 24 hours after sildenafil (48 hours after tadalafil) before administering nitrates.",
     "tags": [
       "cGMP",
-      "Cardiology",
-      "Contraindicated"
+      "cardiology",
+      "contraindicated"
     ],
     "source": {
       "label": "FDA Label",
@@ -1855,8 +1855,8 @@
     "id": "ddi-pd-02",
     "category": "ddi-pd",
     "promptType": "hazard",
-    "context": "The 'Triple Whammy'",
-    "prompt": "ACE Inhibitor + NSAID + Loop/Thiazide Diuretic",
+    "context": "The \"triple whammy\"",
+    "prompt": "ACE inhibitor + NSAID + loop/thiazide diuretic",
     "question": "Primary clinical hazard?",
     "options": [
       "Acute kidney injury (prerenal/hemodynamic)",
@@ -1867,7 +1867,7 @@
     "mechanism": "NSAID constricts the afferent arteriole, ACEi dilates the efferent arteriole, and the diuretic depletes intravascular volume—collapsing glomerular filtration pressure.",
     "pearl": "One of the most common preventable causes of hospital-acquired AKI; avoid NSAIDs (even OTC) in patients on ACEi/ARB + diuretic.",
     "tags": [
-      "Nephrotoxicity",
+      "nephrotoxicity",
       "RAAS",
       "NSAID"
     ],
@@ -1880,7 +1880,7 @@
     "id": "ddi-pd-03",
     "category": "ddi-pd",
     "promptType": "hazard",
-    "prompt": "Lisinopril (ACEi) + Spironolactone",
+    "prompt": "Lisinopril (ACEi) + spironolactone",
     "question": "Primary clinical hazard?",
     "options": [
       "Life-threatening hyperkalemia",
@@ -1889,11 +1889,11 @@
     ],
     "correctIndex": 0,
     "mechanism": "Dual RAAS suppression blunts aldosterone signaling in the collecting duct, sharply reducing urinary potassium excretion.",
-    "pearl": "Common and beneficial in HFrEF, but requires close serum K+ and creatinine monitoring—especially if eGFR <45 or with K+ supplements.",
+    "pearl": "Common and beneficial in HFrEF, but requires close serum K⁺ and creatinine monitoring—especially if eGFR <45 or with K⁺ supplements.",
     "tags": [
-      "Hyperkalemia",
+      "hyperkalemia",
       "RAAS",
-      "Cardiology"
+      "cardiology"
     ],
     "source": {
       "label": "FDA Label",
@@ -1904,7 +1904,7 @@
     "id": "ddi-pd-04",
     "category": "ddi-pd",
     "promptType": "hazard",
-    "prompt": "Phenelzine (MAOI) + Sertraline (SSRI)",
+    "prompt": "Phenelzine (MAOI) + sertraline (SSRI)",
     "question": "Primary clinical hazard?",
     "options": [
       "Serotonin syndrome",
@@ -1915,9 +1915,9 @@
     "mechanism": "Simultaneous blockade of serotonin reuptake (SSRI) and enzymatic degradation (MAOI) floods synaptic clefts with serotonin.",
     "pearl": "Contraindicated; observe at least a 14-day washout when switching (5 weeks after stopping fluoxetine due to norfluoxetine's long half-life).",
     "tags": [
-      "Serotonin Syndrome",
+      "serotonin syndrome",
       "MAOI",
-      "Contraindicated"
+      "contraindicated"
     ],
     "source": {
       "label": "FDA Label",
@@ -1928,7 +1928,7 @@
     "id": "ddi-pd-05",
     "category": "ddi-pd",
     "promptType": "hazard",
-    "prompt": "Linezolid + Fluoxetine",
+    "prompt": "Linezolid + fluoxetine",
     "question": "Primary clinical hazard?",
     "options": [
       "Serotonin syndrome",
@@ -1939,8 +1939,8 @@
     "mechanism": "Linezolid is a reversible, non-selective monoamine oxidase (MAO) inhibitor that precipitates serotonin toxicity with SSRIs/SNRIs.",
     "pearl": "Classic inpatient consult trap; consider an alternative MRSA agent (e.g., daptomycin or vancomycin) or hold the SSRI if feasible.",
     "tags": [
-      "Serotonin Syndrome",
-      "Antibiotic",
+      "serotonin syndrome",
+      "antibiotic",
       "MAOI"
     ],
     "source": {
@@ -1952,7 +1952,7 @@
     "id": "ddi-pd-06",
     "category": "ddi-pd",
     "promptType": "hazard",
-    "prompt": "Warfarin + Ibuprofen",
+    "prompt": "Warfarin + ibuprofen",
     "question": "Expected clinical hazard?",
     "options": [
       "Major GI bleeding risk (even at therapeutic INR)",
@@ -1963,9 +1963,9 @@
     "mechanism": "Additive pharmacodynamic injury: NSAIDs erode gastric mucosal defenses and impair platelet aggregation on top of anticoagulation.",
     "pearl": "Avoid systemic NSAIDs with warfarin or DOACs; if unavoidable, add a PPI and keep duration minimal.",
     "tags": [
-      "Bleeding",
+      "bleeding",
       "NSAID",
-      "Anticoagulant"
+      "anticoagulant"
     ],
     "source": {
       "label": "FDA Label",
@@ -1976,20 +1976,20 @@
     "id": "ddi-pd-07",
     "category": "ddi-pd",
     "promptType": "effect",
-    "prompt": "Lithium + Ibuprofen",
+    "prompt": "Lithium + ibuprofen",
     "question": "Expected clinical effect on lithium?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 0,
     "mechanism": "NSAIDs inhibit renal prostaglandins, lowering GFR and increasing proximal tubular reabsorption of lithium.",
     "pearl": "Can rapidly push lithium into toxic range (coarse tremor, ataxia, confusion); use acetaminophen instead for analgesia.",
     "tags": [
-      "Renal Clearance",
+      "renal clearance",
       "NSAID",
-      "Narrow Therapeutic Index"
+      "narrow therapeutic index"
     ],
     "source": {
       "label": "FDA Label",
@@ -2000,20 +2000,20 @@
     "id": "ddi-pd-08",
     "category": "ddi-pd",
     "promptType": "effect",
-    "prompt": "Lithium + Hydrochlorothiazide",
+    "prompt": "Lithium + hydrochlorothiazide",
     "question": "Expected clinical effect on lithium?",
     "options": [
-      "↑ Toxicity / Excessive effect",
-      "↓ Loss of efficacy / Subtherapeutic",
+      "↑ Toxicity / excessive effect",
+      "↓ Loss of efficacy / subtherapeutic",
       "No major clinical interaction"
     ],
     "correctIndex": 0,
     "mechanism": "Thiazide-induced sodium depletion triggers compensatory proximal tubular reabsorption of both sodium and lithium.",
     "pearl": "Raises lithium levels by 25–40% (more strongly than loop diuretics); reduce lithium dose and monitor levels closely.",
     "tags": [
-      "Renal Clearance",
-      "Diuretic",
-      "Narrow Therapeutic Index"
+      "renal clearance",
+      "diuretic",
+      "narrow therapeutic index"
     ],
     "source": {
       "label": "FDA Label",
@@ -2024,10 +2024,10 @@
     "id": "ddi-pd-09",
     "category": "ddi-pd",
     "promptType": "hazard",
-    "prompt": "Verapamil + Metoprolol",
+    "prompt": "Verapamil + metoprolol",
     "question": "Primary clinical hazard?",
     "options": [
-      "Severe bradycardia / High-degree AV block",
+      "Severe bradycardia / high-degree AV block",
       "Reflex tachycardia",
       "Severe hypertension"
     ],
@@ -2035,9 +2035,9 @@
     "mechanism": "Additive negative chronotropic, dromotropic, and inotropic depression at the SA node, AV node, and myocardium.",
     "pearl": "Avoid combining non-dihydropyridine CCBs (verapamil/diltiazem) with beta-blockers unless closely monitored; dihydropyridines (amlodipine) are safer.",
     "tags": [
-      "AV Block",
-      "Cardiology",
-      "Beta-blocker"
+      "AV block",
+      "cardiology",
+      "beta-blocker"
     ],
     "source": {
       "label": "FDA Label",
@@ -2048,20 +2048,20 @@
     "id": "ddi-pd-10",
     "category": "ddi-pd",
     "promptType": "hazard",
-    "prompt": "Amiodarone + Levofloxacin",
+    "prompt": "Amiodarone + levofloxacin",
     "question": "Primary clinical hazard?",
     "options": [
-      "QTc prolongation / Torsades de pointes",
+      "QTc prolongation / torsades de pointes",
       "Severe hyperkalemia",
       "Loss of antiarrhythmic effect"
     ],
     "correctIndex": 0,
     "mechanism": "Additive blockade of cardiac hERG potassium channels (IKr) delays ventricular repolarization.",
-    "pearl": "Choose a non-QT-prolonging antibiotic when possible, and ensure K+ and Mg2+ are replete.",
+    "pearl": "Choose a non-QT-prolonging antibiotic when possible, and ensure K⁺ and Mg²⁺ are replete.",
     "tags": [
       "QTc",
-      "Arrhythmia",
-      "Antibiotic"
+      "arrhythmia",
+      "antibiotic"
     ],
     "source": {
       "label": "CredibleMeds / FDA",
@@ -2072,7 +2072,7 @@
     "id": "ddi-pd-11",
     "category": "ddi-pd",
     "promptType": "hazard",
-    "prompt": "Oxycodone + Lorazepam",
+    "prompt": "Oxycodone + lorazepam",
     "question": "Primary clinical hazard?",
     "options": [
       "Profound sedation & fatal respiratory depression",
@@ -2083,9 +2083,9 @@
     "mechanism": "Synergistic CNS depression via mu-opioid and GABA-A receptors suppresses medullary respiratory drive.",
     "pearl": "Carries an FDA Boxed Warning; avoid co-prescribing whenever possible and co-prescribe naloxone if unavoidable.",
     "tags": [
-      "CNS Depression",
-      "Opioid",
-      "Boxed Warning"
+      "CNS depression",
+      "opioid",
+      "boxed warning"
     ],
     "source": {
       "label": "FDA Boxed Warning",
@@ -2096,10 +2096,10 @@
     "id": "ddi-pd-12",
     "category": "ddi-pd",
     "promptType": "hazard",
-    "prompt": "Methotrexate + TMP-SMX (Co-trimoxazole)",
+    "prompt": "Methotrexate + TMP-SMX (co-trimoxazole)",
     "question": "Primary clinical hazard?",
     "options": [
-      "Severe pancytopenia / Bone marrow suppression",
+      "Severe pancytopenia / bone marrow suppression",
       "Loss of methotrexate efficacy",
       "Hypoglycemia only"
     ],
@@ -2107,9 +2107,9 @@
     "mechanism": "Dual folate pathway inhibition (both antagonize DHFR/folate synthesis) plus competition for renal tubular secretion.",
     "pearl": "Even low-dose weekly methotrexate for rheumatoid arthritis can cause fatal pancytopenia with TMP-SMX; avoid combination.",
     "tags": [
-      "Myelosuppression",
-      "Folate",
-      "Antibiotic"
+      "myelosuppression",
+      "folate",
+      "antibiotic"
     ],
     "source": {
       "label": "FDA Label",
@@ -2120,7 +2120,7 @@
     "id": "ddi-pd-13",
     "category": "ddi-pd",
     "promptType": "hazard",
-    "prompt": "Metformin + IV Iodinated Contrast (with eGFR <30 or AKI)",
+    "prompt": "Metformin + IV iodinated contrast (eGFR <30 or AKI)",
     "question": "Primary clinical hazard?",
     "options": [
       "Metformin-associated lactic acidosis",
@@ -2131,9 +2131,9 @@
     "mechanism": "Contrast-induced AKI impairs renal excretion of metformin, leading to toxic accumulation and impaired hepatic lactate clearance.",
     "pearl": "Hold metformin at the time of contrast in patients with eGFR 30–60 (or AKI/intra-arterial contrast) and recheck eGFR at 48 hours before restarting.",
     "tags": [
-      "Lactic Acidosis",
-      "Renal",
-      "Endocrinology"
+      "lactic acidosis",
+      "renal",
+      "endocrinology"
     ],
     "source": {
       "label": "FDA Label",
@@ -2144,7 +2144,7 @@
     "id": "ddi-pd-14",
     "category": "ddi-pd",
     "promptType": "hazard",
-    "prompt": "Warfarin + Aspirin + Clopidogrel (Triple Therapy)",
+    "prompt": "Warfarin + aspirin + clopidogrel (triple therapy)",
     "question": "Expected clinical trade-off?",
     "options": [
       "Markedly elevated major bleeding risk",
@@ -2155,9 +2155,9 @@
     "mechanism": "Concurrent inhibition of both fibrin clot formation and dual platelet activation pathways severely impairs hemostasis.",
     "pearl": "In AFib + PCI, modern guidelines favor DOAC + P2Y12 inhibitor (dropping aspirin early, often at discharge to 1 month) to cut major bleeding.",
     "tags": [
-      "Bleeding",
-      "Antithrombotic",
-      "Cardiology"
+      "bleeding",
+      "antithrombotic",
+      "cardiology"
     ],
     "source": {
       "label": "ACC/AHA / ESC Guidelines",
@@ -2168,8 +2168,8 @@
     "id": "swap-01",
     "category": "safe-swap",
     "promptType": "swap",
-    "context": "Strong CYP3A4 Inhibitor Active",
-    "prompt": "Patient on Clarithromycin needs a statin",
+    "context": "Strong CYP3A4 inhibitor active",
+    "prompt": "Patient on clarithromycin needs a statin",
     "question": "Safest statin choice?",
     "options": [
       "Simvastatin",
@@ -2182,8 +2182,8 @@
     "pearl": "Pravastatin or rosuvastatin avoids strong CYP3A4-mediated rhabdomyolysis risk.",
     "tags": [
       "CYP3A4",
-      "Statin",
-      "Safe Swap"
+      "statin",
+      "safe swap"
     ],
     "source": {
       "label": "FDA DDI Table",
@@ -2194,8 +2194,8 @@
     "id": "swap-02",
     "category": "safe-swap",
     "promptType": "swap",
-    "context": "Prodrug Bioactivation",
-    "prompt": "Patient on Clopidogrel needs a PPI for GI prophylaxis",
+    "context": "Prodrug bioactivation",
+    "prompt": "Patient on clopidogrel needs a PPI for GI prophylaxis",
     "question": "Safest PPI choice?",
     "options": [
       "Omeprazole",
@@ -2208,7 +2208,7 @@
     "tags": [
       "CYP2C19",
       "PPI",
-      "Safe Swap"
+      "safe swap"
     ],
     "source": {
       "label": "FDA Label",
@@ -2219,8 +2219,8 @@
     "id": "swap-03",
     "category": "safe-swap",
     "promptType": "swap",
-    "context": "Avoid CYP2D6 Phenoconversion",
-    "prompt": "Patient on Tamoxifen needs therapy for hot flashes / depression",
+    "context": "Avoid CYP2D6 phenoconversion",
+    "prompt": "Patient on tamoxifen needs therapy for hot flashes / depression",
     "question": "Safest antidepressant choice?",
     "options": [
       "Fluoxetine",
@@ -2233,8 +2233,8 @@
     "pearl": "Venlafaxine is first-line for hot flashes and mood symptoms in tamoxifen-treated patients.",
     "tags": [
       "CYP2D6",
-      "Oncology",
-      "Safe Swap"
+      "oncology",
+      "safe swap"
     ],
     "source": {
       "label": "CPIC 2018",
@@ -2245,8 +2245,8 @@
     "id": "swap-04",
     "category": "safe-swap",
     "promptType": "swap",
-    "context": "CPIC Level A (Post-PCI)",
-    "prompt": "CYP2C19 Poor Metabolizer after coronary stenting",
+    "context": "CPIC Level A (post-PCI)",
+    "prompt": "CYP2C19 poor metabolizer after coronary stenting",
     "question": "Best P2Y12 antiplatelet choice?",
     "options": [
       "Clopidogrel 75 mg",
@@ -2259,8 +2259,8 @@
     "pearl": "Switch CYP2C19 PMs (and IMs in ACS/PCI) to prasugrel or ticagrelor unless contraindicated.",
     "tags": [
       "CYP2C19",
-      "Antiplatelet",
-      "Safe Swap"
+      "antiplatelet",
+      "safe swap"
     ],
     "source": {
       "label": "CPIC 2022",
@@ -2271,22 +2271,22 @@
     "id": "swap-05",
     "category": "safe-swap",
     "promptType": "swap",
-    "context": "Renal Lithium Clearance",
-    "prompt": "Patient on Lithium needs analgesia for knee osteoarthritis",
+    "context": "Renal lithium clearance",
+    "prompt": "Patient on lithium needs analgesia for knee osteoarthritis",
     "question": "Safest oral analgesic choice?",
     "options": [
       "Ibuprofen",
       "Naproxen",
       "Celecoxib",
-      "Acetaminophen (Paracetamol)"
+      "Acetaminophen (paracetamol)"
     ],
     "correctIndex": 3,
     "mechanism": "Acetaminophen does not inhibit renal prostaglandin synthesis or impair glomerular filtration of lithium, unlike non-selective and COX-2 NSAIDs.",
     "pearl": "Always counsel patients on lithium to avoid OTC NSAIDs and choose acetaminophen/paracetamol instead.",
     "tags": [
-      "Lithium",
+      "lithium",
       "NSAID",
-      "Safe Swap"
+      "safe swap"
     ],
     "source": {
       "label": "FDA Label",
@@ -2311,8 +2311,8 @@
     "pearl": "Lowering the starting dose of allopurinol does NOT eliminate HLA-B*58:01 SCAR risk—switch to febuxostat.",
     "tags": [
       "HLA-B*58:01",
-      "Gout",
-      "Safe Swap"
+      "gout",
+      "safe swap"
     ],
     "source": {
       "label": "CPIC 2015",
@@ -2324,7 +2324,7 @@
     "category": "safe-swap",
     "promptType": "swap",
     "context": "CPIC Level A",
-    "prompt": "CYP2D6 Ultra-Rapid Metabolizer needs post-op nausea prophylaxis",
+    "prompt": "CYP2D6 ultrarapid metabolizer needs post-op nausea prophylaxis",
     "question": "Best 5-HT3 antagonist choice?",
     "options": [
       "Ondansetron",
@@ -2333,12 +2333,12 @@
       "Low-dose ondansetron"
     ],
     "correctIndex": 2,
-    "mechanism": "Granisetron is cleared via CYP3A4/1A1 rather than CYP2D6, avoiding ultra-rapid clearance and antiemetic failure.",
+    "mechanism": "Granisetron is cleared via CYP3A4/1A1 rather than CYP2D6, avoiding ultrarapid clearance and antiemetic failure.",
     "pearl": "Both ondansetron and tropisetron fail more often in CYP2D6 UMs; choose granisetron.",
     "tags": [
       "CYP2D6",
-      "Antiemetic",
-      "Safe Swap"
+      "antiemetic",
+      "safe swap"
     ],
     "source": {
       "label": "CPIC 2016",
@@ -2349,8 +2349,8 @@
     "id": "swap-08",
     "category": "safe-swap",
     "promptType": "swap",
-    "context": "Strong Hepatic Enzyme Induction",
-    "prompt": "Patient on Rifampin needs a beta-blocker",
+    "context": "Strong hepatic enzyme induction",
+    "prompt": "Patient on rifampin needs a beta-blocker",
     "question": "Least affected by CYP induction?",
     "options": [
       "Metoprolol",
@@ -2362,9 +2362,9 @@
     "mechanism": "Atenolol is predominantly excreted unchanged by the kidneys, whereas metoprolol, propranolol, and carvedilol undergo extensive hepatic CYP metabolism.",
     "pearl": "Hydrophilic, renally cleared beta-blockers (atenolol, nadolol) sidestep hepatic CYP induction.",
     "tags": [
-      "Renal Clearance",
-      "Inducer",
-      "Safe Swap"
+      "renal clearance",
+      "inducer",
+      "safe swap"
     ],
     "source": {
       "label": "Flockhart Table",
@@ -2375,8 +2375,8 @@
     "id": "swap-09",
     "category": "safe-swap",
     "promptType": "swap",
-    "context": "Minimize CYP2C9/2C19 Inhibition",
-    "prompt": "Patient on Warfarin needs an SSRI",
+    "context": "Minimize CYP2C9/2C19 inhibition",
+    "prompt": "Patient on warfarin needs an SSRI",
     "question": "Lowest CYP-inhibition risk?",
     "options": [
       "Fluvoxamine",
@@ -2389,7 +2389,7 @@
     "tags": [
       "CYP2C9",
       "SSRI",
-      "Safe Swap"
+      "safe swap"
     ],
     "source": {
       "label": "Flockhart Table",
@@ -2400,8 +2400,8 @@
     "id": "swap-10",
     "category": "safe-swap",
     "promptType": "swap",
-    "context": "Strong CYP3A4 Inhibitor Active",
-    "prompt": "Patient on Ritonavir needs a short-acting benzodiazepine",
+    "context": "Strong CYP3A4 inhibitor active",
+    "prompt": "Patient on ritonavir needs a short-acting benzodiazepine",
     "question": "Safest benzodiazepine choice?",
     "options": [
       "Midazolam (oral)",
@@ -2410,12 +2410,12 @@
       "Lorazepam"
     ],
     "correctIndex": 3,
-    "mechanism": "The 'LOT' benzodiazepines (Lorazepam, Oxazepam, Temazepam) undergo direct UGT glucuronidation, bypassing CYP3A4 completely.",
+    "mechanism": "The 'LOT' benzodiazepines (lorazepam, oxazepam, temazepam) undergo direct UGT glucuronidation, bypassing CYP3A4 completely.",
     "pearl": "Oral midazolam and triazolam are strictly contraindicated with ritonavir due to extreme sedation and respiratory depression.",
     "tags": [
       "CYP3A4",
-      "Glucuronidation",
-      "Safe Swap"
+      "glucuronidation",
+      "safe swap"
     ],
     "source": {
       "label": "FDA DDI Table",
@@ -2427,7 +2427,7 @@
     "category": "safe-swap",
     "promptType": "swap",
     "context": "CPIC Level A",
-    "prompt": "SLCO1B1 Poor Function patient had myalgias on Simvastatin 40 mg",
+    "prompt": "SLCO1B1 poor function patient had myalgias on simvastatin 40 mg",
     "question": "Best moderate-intensity statin swap?",
     "options": [
       "Simvastatin 20 mg",
@@ -2440,8 +2440,8 @@
     "pearl": "Per CPIC 2022, fluvastatin (or low-to-moderate dose pravastatin/rosuvastatin) avoids SLCO1B1-driven myopathy.",
     "tags": [
       "SLCO1B1",
-      "Statin",
-      "Safe Swap"
+      "statin",
+      "safe swap"
     ],
     "source": {
       "label": "CPIC 2022",
@@ -2453,21 +2453,21 @@
     "category": "safe-swap",
     "promptType": "swap",
     "context": "CPIC Level A",
-    "prompt": "CYP2D6 Poor Metabolizer needs post-op opioid analgesia",
+    "prompt": "CYP2D6 poor metabolizer needs post-op opioid analgesia",
     "question": "Most reliable opioid choice?",
     "options": [
       "Codeine",
       "Tramadol",
       "Morphine",
-      "Codeine + Acetaminophen"
+      "Codeine + acetaminophen"
     ],
     "correctIndex": 2,
     "mechanism": "Morphine is already active and cleared by UGT2B7 glucuronidation, requiring no CYP2D6 bioactivation.",
-    "pearl": "Avoid both codeine and tramadol in CYP2D6 poor (and ultra-rapid) metabolizers.",
+    "pearl": "Avoid both codeine and tramadol in CYP2D6 poor (and ultrarapid) metabolizers.",
     "tags": [
       "CYP2D6",
-      "Opioid",
-      "Safe Swap"
+      "opioid",
+      "safe swap"
     ],
     "source": {
       "label": "CPIC 2020",
