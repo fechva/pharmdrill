@@ -28,20 +28,30 @@ export const Header: React.FC<HeaderProps> = ({
     <header className="topbar">
       <div className="topbar-left">
         <span className="brand-mark" aria-hidden="true">
-          <svg width="22" height="22" viewBox="0 0 64 64">
-            <rect width="64" height="64" rx="14" fill="currentColor" />
-            <g
-              transform="rotate(-45 32 32)"
+          <svg width="24" height="24" viewBox="0 0 32 32">
+            <path
+              d="M16 2.5 L27.5 6.2 V15.8 C27.5 22.8 22.4 27.3 16 29.5 C9.6 27.3 4.5 22.8 4.5 15.8 V6.2 Z"
+              fill={theme === 'dark' ? '#f4f4f5' : '#ffffff'}
+            />
+            <path
+              d="M16 2.5 L4.5 6.2 V15.8 C4.5 22.8 9.6 27.3 16 29.5 Z"
+              fill="#111827"
+            />
+            <path
+              d="M16 11.8 H11.7 A3.2 3.2 0 0 0 11.7 18.2 H16 Z"
+              fill={theme === 'dark' ? '#f4f4f5' : '#ffffff'}
+            />
+            <path
+              d="M16 11.8 H20.3 A3.2 3.2 0 0 1 20.3 18.2 H16 Z"
+              fill="#111827"
+            />
+            <path
+              d="M16 2.5 L27.5 6.2 V15.8 C27.5 22.8 22.4 27.3 16 29.5 C9.6 27.3 4.5 22.8 4.5 15.8 V6.2 Z"
               fill="none"
-              stroke="var(--bg)"
-              strokeWidth="4.6"
-              strokeLinecap="round"
+              stroke={theme === 'dark' ? '#e4e4e7' : '#111827'}
+              strokeWidth="2.5"
               strokeLinejoin="round"
-            >
-              <rect x="14" y="23" width="36" height="18" rx="9" />
-              <line x1="32" y1="23" x2="32" y2="41" />
-            </g>
-            <circle cx="48" cy="48" r="5.5" fill={theme === 'dark' ? '#1d4ed8' : '#60a5fa'} />
+            />
           </svg>
         </span>
         <h1 className="brand-title" aria-label="DDGI — Drug–Drug & Gene Interactions">
