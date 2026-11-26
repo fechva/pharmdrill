@@ -41,7 +41,7 @@ export const Header: React.FC<HeaderProps> = ({
               <rect x="14" y="23" width="36" height="18" rx="9" />
               <line x1="32" y1="23" x2="32" y2="41" />
             </g>
-            <circle cx="48" cy="48" r="5.5" fill="var(--accent)" />
+            <circle cx="48" cy="48" r="5.5" fill={theme === 'dark' ? '#1d4ed8' : '#60a5fa'} />
           </svg>
         </span>
         <h1 className="brand-title">PharmDrill</h1>
