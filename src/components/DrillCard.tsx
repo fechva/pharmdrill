@@ -37,18 +37,16 @@ export const DrillCard: React.FC<DrillCardProps> = ({
   const isAnswered = selectedOptionIndex !== null;
   const chosenOption = isAnswered ? presentedOptions[selectedOptionIndex] : null;
   const isCorrect = chosenOption ? chosenOption.originalIndex === card.correctIndex : false;
+  const isReviewCard = Boolean(cardProgress && cardProgress.lastResult === 'wrong');
 
   return (
     <section className="drill-card" aria-live="polite">
-      <div className="card-meta">
-        <span className="category-badge">{CATEGORY_LABELS[card.category]}</span>
-        {card.context && <span className="context-label">{card.context}</span>}
-        {cardProgress && cardProgress.lastResult === 'wrong' && !isAnswered && (
+      <div className="card-prompt-row">
+        <h2 className="card-prompt">{card.prompt}</h2>
+        {!isAnswered && isReviewCard && (
           <span className="requeue-badge">Review</span>
         )}
       </div>
-
-      <h2 className="card-prompt">{card.prompt}</h2>
       <p className="card-question">{card.question}</p>
 
       <div className="options-list" role="group" aria-label="Answer choices">
@@ -111,6 +109,11 @@ export const DrillCard: React.FC<DrillCardProps> = ({
             >
               Report issue ↗
             </a>
+          </div>
+
+          <div className="feedback-meta">
+            <span className="category-badge">{CATEGORY_LABELS[card.category]}</span>
+            {card.context && <span className="context-label">{card.context}</span>}
           </div>
 
           <dl className="feedback-details">
